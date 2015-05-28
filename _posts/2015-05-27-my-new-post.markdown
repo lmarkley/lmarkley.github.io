@@ -4,12 +4,16 @@ title: "My first post with Jekyll"
 date: 2015-05-27T19:37:51-04:00
 ---
 
-## This is a new post
+## My first post with Jekyll...
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+And I must say, setting this up was relatively easy. 
+
+The concept behind Jekyll and GitHub pages is absolutely wonderful. I know this because even *I* could figure it out in a few minutes. 
+
+Let's test some math:
+
+$ E = mc^2 $
+
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'],['\[','\]']], processEscapes: true}}); </script> 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
 
