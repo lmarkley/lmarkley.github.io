@@ -4,6 +4,8 @@ title: "My first post with Jekyll"
 date: 2015-05-27T19:37:51-04:00
 ---
 
+<figure><a href="/images/logo.png"><img src="/images/logo.png"</a></figure>
+
 ## My first post with Jekyll...
 
 And I must say, setting this up was relatively easy. 
