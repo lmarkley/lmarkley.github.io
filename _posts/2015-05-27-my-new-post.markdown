@@ -4,7 +4,7 @@ title: "My first post with Jekyll"
 date: 2015-05-27T19:37:51-04:00
 ---
 
-![](logo.png)
+![On Particles and Processors](logo.png)
 
 ## My first post with Jekyll...
 
