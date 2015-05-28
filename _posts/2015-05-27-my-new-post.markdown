@@ -4,8 +4,6 @@ title: "My first post with Jekyll"
 date: 2015-05-27T19:37:51-04:00
 ---
 
-![On Particles and Processors](logo.png)
-
 ## My first post with Jekyll...
 
 And I must say, setting this up was relatively easy. 
