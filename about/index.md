@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-tags: [about, Jekyll, theme, responsive]
 modified: 2015-05-27T20:53:07.573882-04:00
 ---
 
