@@ -14,6 +14,8 @@ What I would like to talk about is the Titan X's performance with regard to one 
 
 <figure> <a href="http://drops.fitzlarolds.net/17mDk+"><img src='http://drops.fitzlarolds.net/17mDk+'></a> <figcaption>Geralt in full 1440p glory.</figcaption></figure>
 
+<figure><a href="http://drops.fitzlarolds.net/16knT+"> <img src='http://drops.fitzlarolds.net/16knT+'></a><figcaption> Geralt and Vesemir in 1080p with Ultra settings.</figcaption></figure>
+
 The Witcher 3 is a graphically intense game [^witcher2] and utilizes NVIDIA's new HairWorks technology which (apparently) makes hair on all of the characters, monsters, etc. more realistic. While I don't know the inner workings of the technology, I understand that it creates a texture for each strand of hair and seems to dynamically calculate each strand's behavior. The effect is *very* visible in game.
 
 I have been playing The Witcher 3 a bit 1440p (for reasons I will discuss further on) and I don't see any framerate drops, strobing, or ghosting [^pc]. However, I mainly play in 1080p (the biggest screen I could find is this resolution) with the settings maxed out. Again, I see no strobing, ghosting, or framerate drops, even in crowded areas or during battles.
