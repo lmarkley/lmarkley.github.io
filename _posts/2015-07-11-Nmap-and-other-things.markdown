@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A 'Bourne' again shell scripter"
+title: "A 'Bourne again' shell scripter"
 date: 2015-07-11T17:14:00-04:00
 ---
 
