@@ -58,6 +58,8 @@ Nmap doesn't come stock with bash; it is third party software but it is one of m
 
 Possibly the most powerful tool at the fingertips of any computer software tinkerer is a good text editor. Luckily, `vi` is a *great* text editor, often lauded as *the* text editor. I have to admit, I've gotten a bit rusty in my Vim skills. I've been spoiled with Sublime Text for some time now. Though having a big, fancy text editor is great, what happens when you don't have those luxuries like a mouse or a user interface? Vim is a veritable (and venerable) Swiss army knife; you *need* to keep it in your pocket, especially out in the wild. To get back to the practical point, `vi` is completely text-based and uses keyboard shortcuts to keep your hands on the keyboard. While it is easy to pick up the basics, becoming proficient can be tough (but it's worth it).
 
+I am actually editing this section of this post in Vim now. I have to say, even being rusty, the shortcuts and syntax highlighting are still incredible and fast.
+
 ### References
 
 1. [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
