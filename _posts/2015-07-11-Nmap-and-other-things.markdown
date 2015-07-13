@@ -60,6 +60,14 @@ Possibly the most powerful tool at the fingertips of any computer software tinke
 
 I am actually editing this section of this post in Vim now. I have to say, even being rusty, the shortcuts and syntax highlighting are still incredible and fast.
 
+### Other tools
+
+#### `tmux`
+
+It is my understanding that `tmux` is short for 'terminal multiplexer', which means that you can have multiple instances of shell in the same terminal session in the form of panes or windows.
+
+<figure> <a href="http://lmarkley.github.io/images/tmux.png"><img src='http://lmarkley.github.io/images/tmux.png'></a> An screenshot of writing this post in Vim using tmux panes.</figcaption></figure>
+
 ### References
 
 1. [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
