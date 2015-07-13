@@ -18,7 +18,19 @@ SSH has pretty simple syntax for the most basic applications. For example, if I 
     
     ssh -p 2468 bob@myserver
 
-Then SSH would prompt me for the password for 'bob', unless I have an SSH key [^keys]
+Then SSH would prompt me for the password for 'bob', unless I have an SSH key [^keys].
+
+#### SCP
+
+The Secure CoPy (SCP) tool can be very useful if you need to send a file to or get a file from somewhere that you don't have physical access to (and possibly don't want to use an SFTP or FTP client, etc.). Again, the syntax is pretty simple for basic stuff. For example, let's say I have the same computer as above and I want to send a shell script ('script.sh') in my home directory (or in the second case, get a shell script *from* the home directory of 'myserver'), then I would enter these commands in the terminal:
+
+    scp -P 2468 shell.sh bob@myserver:~/
+
+or to fetch the same file:
+
+    scp -P 2468 bob@myserver:~/shell.sh ~/
+
+The same thing goes here; you'll be prompted for a password unless you have an SSH key.
 
 ### Network tools
 
