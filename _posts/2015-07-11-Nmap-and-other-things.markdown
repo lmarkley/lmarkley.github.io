@@ -12,6 +12,14 @@ That is not to say that you can't **severely** screw up everything on your compu
 
 I do a lot of work remotely. Needless to say, I don't want everyone in the world to be able to pick what I'm doing out of the air and have access to any personal data. So I employ the use of SSL (Secure Socket Layer) encryption in the form of SSH, SCP, and SFTP; which are Secure SHell, Secure CoPy, and Secure File Transfer Protocol, respectively. You may have heard of SSL, it is responsible for encrypting anything from secure chats to bank transfers, and with the exception of a few problems (like Heartbleed) it has worked well (especially for being open-source and staffed by mostly volunteers as I understand it). I won't go into the details of exactly how it works (I don't understand it fully, so I wouldn't feel comfortable), but I might throw in an example or two later on. Of the three, I use SSH the most to run remote commands to do work while I'm away (and even to tunnel a VNC session if I have enough bandwidth). 
 
+#### SSH
+
+SSH has pretty simple syntax for the most basic applications. For example, if I want to log on to a server called 'myserver' with the username 'bob', on the port '2468' (the default port for SSH is 22, for future reference), I would enter the following in the terminal:
+    
+    ssh -p 2468 bob@myserver
+
+Then SSH would prompt me for the password for 'bob', unless I have an SSH key [^keys]
+
 ### Network tools
 
 There are some really nice network tools available for bash. I'll go over a few (there are *tons*) here and give a brief overview of some things that they can do. 
@@ -46,5 +54,6 @@ Possibly the most powerful tool at the fingertips of any computer software tinke
 2. [Hyperpolyglot: Unix Shells](http://hyperpolyglot.org/unix-shells)
     - I also recently found this gem. It is useful for programming in general, but I've linked to the Unix Shells page here. 
 
-
 To be continued....
+
+[^keys]: I like to think of SSH keys this way (though it is a gross oversimplification): It's like having a security system that you have the master code for, but there are other codes for other people (computers) that you 'trust' (or have authorized) so that they can get in as well. Each of these people (computers) has a unique code (signature) so that you know it is them and not someone else.
