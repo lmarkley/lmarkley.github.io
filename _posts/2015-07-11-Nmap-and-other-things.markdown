@@ -66,7 +66,7 @@ I am actually editing this section of this post in Vim now. I have to say, even 
 
 It is my understanding that `tmux` is short for 'terminal multiplexer', which means that you can have multiple instances of shell in the same terminal session in the form of panes or windows.
 
-<figure> <a href="http://lmarkley.github.io/assets/tmux.png"><img src='http://lmarkley.github.io/assets/tmux.png'></a> A screenshot of writing this post in Vim using tmux panes.</figcaption></figure>
+<figure> <a href="http://lmarkley.github.io/images/tmux.png"><img src='http://lmarkley.github.io/images/tmux.png'></a> A screenshot of writing this post in Vim using tmux panes.</figcaption></figure>
 
 ### References
 
