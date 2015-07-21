@@ -20,6 +20,12 @@ SSH has pretty simple syntax for the most basic applications. For example, if I 
 
 Then SSH would prompt me for the password for 'bob', unless I have an SSH key [^keys].
 
+Another cool thing possible with SSH is *tunneling*. It might sound a bit nefarious, but it's used for all sorts of practical things from creating a "poor man's VPN", to circumventing restrictive firewalls, or even just being able to get desktop Gmail at work. There are many types of tunnels, but the one I will share here (without telling you how to do everything, that may require a bit of searching) is for a *dynamic port forwarding tunnel*. In other words, it forwards all of the traffic on your computer through a remote server to the rest of the Internet. This can be done with the following command:
+
+    ssh -D <local port> <user>@<server> -N
+
+The `D` is for dynamic and it takes a port on your local computer as an argument, the `N` is so you don't enter what is called an interactive session (i.e. you can't send commands). It always makes things a little easier to use password-less authentication, but that lies beyond the scope of this post.
+
 #### SCP
 
 The Secure CoPy (SCP) tool can be very useful if you need to send a file to or get a file from somewhere that you don't have physical access to (and possibly don't want to use an SFTP or FTP client, etc.). Again, the syntax is pretty simple for basic stuff. For example, let's say I have the same computer as above and I want to send a shell script ('script.sh') in my home directory (or in the second case, get a shell script *from* the home directory of 'myserver'), then I would enter these commands in the terminal:
@@ -50,7 +56,7 @@ ARP stands for "Address Resolution Protocol". It is how computers know where one
 
 #### Nmap 
 
-Nmap doesn't come stock with bash; it is third party software but it is one of my favorites so I'm mentioning it. Before I go on, the obligatory disclaimer: **DO NOT USE NMAP ANYWHERE YOU SHOULDN'T** and **IF YOU AREN'T SURE YOU ARE ALLOWED TO USE IT, YOU PROBABLY AREN'T**. Now that we've that out of the way, Nmap is an incredibly powerful and versatile information gathering tool. It scans the nebulous entities known as ports on a computer; can gather information about the operating system and services available from a computer; and various other features that are rather esoteric. I personally use it to look for my computer when its IP address changes on my local network and I'm not there to check what it might be. There is a GUI version of Nmap called Zenmap that is rather nifty as well. You can find information about Nmap and Zenmap on [the official Nmap site](https://nmap.org).
+Nmap doesn't come stock with bash; it is third party software but it is one of my favorites so I'm mentioning it. Before I go on, the obligatory disclaimer: **DO NOT USE NMAP ANYWHERE YOU SHOULDN'T** and **IF YOU AREN'T SURE YOU ARE ALLOWED TO USE IT, YOU PROBABLY AREN'T**. Now that we've that out of the way, Nmap is an incredibly powerful and versatile information gathering tool. It scans the nebulous entities known as ports on a computer; can gather information about the operating system and services available from a computer; and various other features that are rather esoteric. I personally use it to look for my computer when its IP address changes on my local network and I'm not there to check what it might be. There is a GUI version of Nmap called Zenmap that is rather nifty as well. You can find information about Nmap and Zenmap on [the official Nmap site](https://nmap.org)[^nmap].
 
 ### File and text tools
 
@@ -68,6 +74,12 @@ It is my understanding that `tmux` is short for 'terminal multiplexer', which me
 
 <figure> <a href="http://lmarkley.github.io/images/tmux.png"><img src='http://lmarkley.github.io/images/tmux.png'></a> A screenshot of writing this post in Vim using tmux panes.</figcaption></figure>
 
+### Other cool stuff
+
+#### Babun
+
+I discovered [Babun](http://babun.github.io) a few days ago after hearing it on a podcast called "Programming Throwdown" which, by the way, is wonderful. You should listen to it. It's funny *and* informative, though I will warn you that the nominal topic only gets about 15-20 minutes toward the end of the show in my experience [^progthrow]. Babun is an implementation of Cygwin and a lot more; it has many plugins and add-ons and one thing that Cygwin lacks out-of-the-box: an included package manager. It's easy to setup and, as the home page states, doesn't interfere with previous Cygwin installations (I can vouch for that, it didn't mess with mine at all). If you are a Windows user but miss a good (sorry Microsoft...) command line interface, try Babun. 
+
 ### References
 
 1. [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
@@ -79,3 +91,7 @@ It is my understanding that `tmux` is short for 'terminal multiplexer', which me
 To be continued....
 
 [^keys]: I like to think of SSH keys this way (though it is a gross oversimplification): It's like having a security system that you have the master code for, but there are other codes for other people (computers) that you 'trust' (or have authorized) so that they can get in as well. Each of these people (computers) has a unique code (signature) so that you know it is them and not someone else.
+
+[^progthrow]: *Programming Throwdown* is hosted by Jason Gauci and Patrick Wheeler. It is my favorite podcast for several reasons, but mainly because the it is always informative and the hosts have real charisma (albeit a nerdy manifestation of it). Here is a link to the Google+ page if you would like more information: https://plus.google.com/communities/103949530542621693799
+
+[^nmap]: Nmap even has a Python module: `python-nmap`. 
