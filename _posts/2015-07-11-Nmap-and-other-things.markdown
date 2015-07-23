@@ -4,18 +4,18 @@ title: "A 'Bourne again' shell scripter"
 date: 2015-07-11T17:14:00-04:00
 ---
 
-I've been playing around with bash (the Bourne Again SHell) scripts for about two years now. At first, it was a passing necessity to automate programs for the research I was working on. Then I realized the tremendous power that lie within scripting in bash. I think about it like this: You are essentially giving directions *directly* to the "brain" of your computer. All that raw power at your fingertips without having to go through someone else's "black box" of a user interface, that does god-knows-what behind the scenes; it is exhilarating (to a nerd like me). 
+I've been playing around with bash (the Bourne Again SHell) scripts for about two years now. At first, it was a passing necessity to automate programs for the research I was working on. Then I realized the tremendous power that lie within scripting in bash. I think about it like this: You are essentially giving directions *directly* to the "brain" of your computer. All that raw power at your fingertips without having to go through someone else's "black box" of a user interface, that does god-knows-what behind the scenes; it is exhilarating (to a nerd like me).
 
-That is not to say that you can't **severely** screw up everything on your computer with this stuff (I have on many occasions done just that), but if you do your homework and experiment a little you're usually safe. 
+That is not to say that you can't **severely** screw up everything on your computer with this stuff (I have on many occasions done just that), but if you do your homework and experiment a little you're usually safe.
 
 ### SSH, SCP, & SFTP
 
-I do a lot of work remotely. Needless to say, I don't want everyone in the world to be able to pick what I'm doing out of the air and have access to any personal data. So I employ the use of SSL (Secure Socket Layer) encryption in the form of SSH, SCP, and SFTP; which are Secure SHell, Secure CoPy, and Secure File Transfer Protocol, respectively. You may have heard of SSL, it is responsible for encrypting anything from secure chats to bank transfers, and with the exception of a few problems (like Heartbleed) it has worked well (especially for being open-source and staffed by mostly volunteers as I understand it). I won't go into the details of exactly how it works (I don't understand it fully, so I wouldn't feel comfortable), but I might throw in an example or two later on. Of the three, I use SSH the most to run remote commands to do work while I'm away (and even to tunnel a VNC session if I have enough bandwidth). 
+I do a lot of work remotely. Needless to say, I don't want everyone in the world to be able to pick what I'm doing out of the air and have access to any personal data. So I employ the use of SSL (Secure Socket Layer) encryption in the form of SSH, SCP, and SFTP; which are Secure SHell, Secure CoPy, and Secure File Transfer Protocol, respectively. You may have heard of SSL, it is responsible for encrypting anything from secure chats to bank transfers, and with the exception of a few problems (like Heartbleed) it has worked well (especially for being open-source and staffed by mostly volunteers as I understand it). I won't go into the details of exactly how it works (I don't understand it fully, so I wouldn't feel comfortable), but I might throw in an example or two later on. Of the three, I use SSH the most to run remote commands to do work while I'm away (and even to tunnel a VNC session if I have enough bandwidth).
 
 #### SSH
 
 SSH has pretty simple syntax for the most basic applications. For example, if I want to log on to a server called 'myserver' with the username 'bob', on the port '2468' (the default port for SSH is 22, for future reference), I would enter the following in the terminal:
-    
+
     ssh -p 2468 bob@myserver
 
 Then SSH would prompt me for the password for 'bob', unless I have an SSH key [^keys].
@@ -40,7 +40,7 @@ The same thing goes here; you'll be prompted for a password unless you have an S
 
 ### Network tools
 
-There are some really nice network tools available for bash. I'll go over a few (there are *tons*) here and give a brief overview of some things that they can do. 
+There are some really nice network tools available for bash. I'll go over a few (there are *tons*) here and give a brief overview of some things that they can do.
 
 #### Ping
 
@@ -52,9 +52,9 @@ That's it! Then it will send some information to the host and see how much it ge
 
 #### Arp
 
-ARP stands for "Address Resolution Protocol". It is how computers know where one another are, and how to get from point A to point B (so to speak) in a network. The `arp -a` returns the ARP table for the network you are connected to, with all of the live hosts (network devices that are connected and on) and their IP and MAC addresses. This is useful information if you want to know how many devices are connected to your network and "where" they are on it. 
+ARP stands for "Address Resolution Protocol". It is how computers know where one another are, and how to get from point A to point B (so to speak) in a network. The `arp -a` returns the ARP table for the network you are connected to, with all of the live hosts (network devices that are connected and on) and their IP and MAC addresses. This is useful information if you want to know how many devices are connected to your network and "where" they are on it.
 
-#### Nmap 
+#### Nmap
 
 Nmap doesn't come stock with bash; it is third party software but it is one of my favorites so I'm mentioning it. Before I go on, the obligatory disclaimer: **DO NOT USE NMAP ANYWHERE YOU SHOULDN'T** and **IF YOU AREN'T SURE YOU ARE ALLOWED TO USE IT, YOU PROBABLY AREN'T**. Now that we've that out of the way, Nmap is an incredibly powerful and versatile information gathering tool. It scans the nebulous entities known as ports on a computer; can gather information about the operating system and services available from a computer; and various other features that are rather esoteric. I personally use it to look for my computer when its IP address changes on my local network and I'm not there to check what it might be. There is a GUI version of Nmap called Zenmap that is rather nifty as well. You can find information about Nmap and Zenmap on [the official Nmap site](https://nmap.org)[^nmap].
 
@@ -78,7 +78,11 @@ It is my understanding that `tmux` is short for 'terminal multiplexer', which me
 
 #### Babun
 
-I discovered [Babun](http://babun.github.io) a few days ago after hearing it on a podcast called "Programming Throwdown" which, by the way, is wonderful. You should listen to it. It's funny *and* informative, though I will warn you that the nominal topic only gets about 15-20 minutes toward the end of the show in my experience [^progthrow]. Babun is an implementation of Cygwin and a lot more; it has many plugins and add-ons and one thing that Cygwin lacks out-of-the-box: an included package manager. It's easy to setup and, as the home page states, doesn't interfere with previous Cygwin installations (I can vouch for that, it didn't mess with mine at all). If you are a Windows user but miss a good (sorry Microsoft...) command line interface, try Babun. 
+I discovered [Babun](http://babun.github.io) a few days ago after hearing it on a podcast called "Programming Throwdown" which, by the way, is wonderful. You should listen to it. It's funny *and* informative, though I will warn you that the nominal topic only gets about 15-20 minutes toward the end of the show in my experience [^progthrow]. Babun is an implementation of Cygwin and a lot more; it has many plugins and add-ons and one thing that Cygwin lacks out-of-the-box: an included package manager. It's easy to setup and, as the home page states, doesn't interfere with previous Cygwin installations (I can vouch for that, it didn't mess with mine at all). If you are a Windows user but miss a good (sorry Microsoft...) command line interface, try Babun.
+
+#### Atom
+
+Atom is "A hackable text editor for the 21st Century" as the website states. It is free; open-source; and has a plethora of themes, packages, and add-ons for increased utility. I started using Atom well before its 1.0 date, but found it difficult to work with on Windows. This has since changed; it is as simple to install and use as double clicking the installer and starting it up. It is also cross-platform, which is very nice for a person who uses Linux, OS X, and Windows on a rotating basis (occasionally two simultaneously, which can get really confusing) like me. It is *very* customizable and chic, and I recommend giving it a shot if you like free, open-source, awesome stuff [^atom]
 
 ### References
 
@@ -86,7 +90,7 @@ I discovered [Babun](http://babun.github.io) a few days ago after hearing it on 
     - I recently came upon this repository and I was rendered speachless by the wealth of useful information on this page. I recommend checking it out.
 
 2. [Hyperpolyglot: Unix Shells](http://hyperpolyglot.org/unix-shells)
-    - I also recently found this gem. It is useful for programming in general, but I've linked to the Unix Shells page here. 
+    - I also recently found this gem. It is useful for programming in general, but I've linked to the Unix Shells page here.
 
 To be continued....
 
@@ -94,4 +98,6 @@ To be continued....
 
 [^progthrow]: *Programming Throwdown* is hosted by Jason Gauci and Patrick Wheeler. It is my favorite podcast for several reasons, but mainly because the it is always informative and the hosts have real charisma (albeit a nerdy manifestation of it). Here is a link to the Google+ page if you would like more information: https://plus.google.com/communities/103949530542621693799
 
-[^nmap]: Nmap even has a Python module: `python-nmap`. 
+[^nmap]: Nmap even has a Python module: `python-nmap`.
+
+[^atom]: More information can be found on the [Atom homepage](http://atom.io), as well as the download links. 
