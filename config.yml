@@ -1,28 +1,9 @@
 # Site wide configuration
 
 title:            On Particles and Processors 2.0
+description:      A random blog.
 locale:           en_US
 url:              http://lmarkley.github.io
-
-
-# Jekyll configuration
-
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: pygments
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
-
-kramdown:
-  extensions: [footnotes]
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
 
 
 # Site owner
@@ -36,11 +17,11 @@ owner:
   facebook: #username
   google:
     plus: #username
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
   github: lmarkley
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
@@ -56,6 +37,13 @@ owner:
   soundcloud: #username
   weibo: #username
   flickr: #username
+
+timezone:   America/New_York
+future:     true
+pygments:   true
+markdown:   kramdown
+
+paginate: 5
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
