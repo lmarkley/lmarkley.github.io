@@ -4,8 +4,6 @@ title: "Gaming keyboards and productivity"
 date: 2015-07-29T13:30:00-04:00
 ---
 
-# Gaming keyboards and productivity
-
 It turns out that computers that are good for doing complex mathematics, large calculation, and parallel processing, are also good for gaming. Interestingly enough, gaming keyboards are also good for things other than gaming. They happen to be, for the most part, well-crafted, mechanical, and possess macro keys that can be used in many ways. In this post, I would like to give an anecdotal look at how a gaming keyboard can be repurposed for productivity, particularly with regard to programming.
 
 ## Macro keys: shortcuts galore
