@@ -157,7 +157,7 @@ li {
 		margin: 0 2px;
 		padding: 0 5px;
 		border: 1px solid lighten($black, 90);
-		background-color: $black;
+		background-color: #ffffad;
 		@include rounded(3px);
 	}
 }
