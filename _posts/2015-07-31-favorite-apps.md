@@ -36,6 +36,8 @@ I have tried a few applications for editing code on my iPhone (it seems silly, b
 
 The interface is very simple: you can add remote sites, download files, edit files, create new ones, etc. all with a few swipes of the thumb. It really doesn't get any more straightforward, and the utility speaks for itself. I recommend this application to anyone who needs to edit a variety of files on the go, or even just write ideas down in plain text or markdown.
 
+[Textastic website](http://www.textasticapp.com)
+
 ### Writing on the go: Editorial
 
 To say that Editorial is *just* a writing app would be do it a great disservice; it is a very flexible, customizable text editor with the ability to create workflows and scripting to increase productivity and generally just do some really neat stuff.
@@ -44,6 +46,12 @@ For example, most of the first iteration of this post was written in and publish
 
 Not only is Editorial useful, it is also very clean, well-crafted, and a pleasure to use.
 
+[Editorial for iOS](http://omz-software.com/editorial/)
+
 ### Notes (and then some): Drafts 4
 
-Drafts 4 is one of those apps that you may see and say, "$10 for a note-taking app?!". However, let me say that, much like with Editorial, saying that this is just a note-taking app is doing it a disservice. Drafts 4 is great for jotting down a quick note, no two ways about it. But what do you do with that note once you've written it down? With Drafts, you can do any number of things like searching for an address you've written down, adding a task in Todoist (or another app with a **URL Scheme**), or adding links to a read-it-later app; it uses short "actions" to do these things with the text you supply.
+Drafts 4 is one of those apps that you may see and say, "$10 for a note-taking app?!". However, let me say that, much like with Editorial, saying that this is just a note-taking app is doing it a disservice. Drafts 4 is great for jotting down a quick note, no two ways about it. But what do you do with that note once you've written it down? With Drafts, you can do any number of things like searching for an address you've written down, adding a task in Todoist (or another app with a **URL Scheme**[^schemes]), or adding links to a read-it-later app; it uses short "actions" to do these things with the text you supply.
+
+[Drafts 4](http://agiletortise.com/drafts/)
+
+[^schemes]: URL schemes are ways of passing data between applications on iOS. They are basically special URLs that call applications rather than websites (i.e. `editorial://` as opposed to `https://`). They can be extremely useful for automating certain tasks, like adding an email to a note or converting markdown to HTML in another app.
