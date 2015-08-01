@@ -54,4 +54,16 @@ Drafts 4 is one of those apps that you may see and say, "$10 for a note-taking a
 
 [Drafts 4](http://agiletortise.com/drafts/)
 
+----
+
+### Further apps to add
+
+1. Pythonista
+2. Coda for iOS
+3. Prompt 2
+4. Transmit
+5. Workflow
+6. 1Password
+7. ProCamera 8
+
 [^schemes]: URL schemes are ways of passing data between applications on iOS. They are basically special URLs that call applications rather than websites (i.e. `editorial://` as opposed to `https://`). They can be extremely useful for automating certain tasks, like adding an email to a note or converting markdown to HTML in another app. If you are looking for more information on URL schemes, check [HandleOpenURL](http://handleopenurl.com/about-handleopenurl) and the [Apple Developer page on URL Schemes](https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/Introduction/Introduction.html).
