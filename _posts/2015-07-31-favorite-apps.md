@@ -54,6 +54,45 @@ Drafts 4 is one of those apps that you may see and say, "$10 for a note-taking a
 
 [Drafts 4](http://agiletortise.com/drafts/)
 
+### Swiss army knife: Pythonista
+
+I've been waiting to write about Pythonista because I wasn't sure how to categorize it. What category do you put an application that can do almost anything? So I decided to make one up.
+
+Pythonista is nominally an IDE (Integrated Development Environment) for Python 2.7. As I'm writing this (on 1 August 2015), Pythonista is in version 1.5 with version 1.6 being actively vetted by the developer and a lively (and friendly) community of contributors. As an IDE, you are able to write and run code written in Python 2.7 in a sort of "sandbox" in the app, natively on iOS. This opens a multitude of potential uses. A few functions that I know of are:
+
+* an integrated web browser,
+* interactions with various sensor in your device,
+* access to the clipboard,
+* static website creation (made possible by an integrated HTTP server),
+* an extremely robust and flexible math library (numpy) and graphing library (matplotlib) that make a very powerful graphing calculator,
+* ways to interact with APIs, such as that of Dropbox or Philips Hue,
+* and even access to new modules and scripts from the vast frontier of the Internet.
+
+These are just what I've encountered; they barely scratch the *current* capabilities of the application. Capabilities that are bound to expand in the next iteration. 
+
+I started off using Python to prototype algorithms for my research in computational physics (yes, it's that good) and have even used it for experimenting in my graduate-level computer science classes. I'll include some code I wrote *entirely* in Pythonista below (part of a proof-of-concept RSA algorithm implementation).
+
+*Note* this is an implementation of Fermat's Little Theorem, a test of primality. I can't really vouch for how well it works, but it worked for my very basic purposes. I just wanted to show how easy writing code is in Pythonista.
+
+	def fermat ( prime_length ):
+	if prime_length <= 0:
+		return 0;
+	N = random.randrange(mod_pow(10,prime_length-1), mod_pow(10,prime_length))
+	if (N%2) == 0:
+		N += 1
+	correct = 0
+	for i in xrange(0,20):
+		test_num = random.randint(1,N-1)
+		if mod_pow(test_num,N-1,N) == 1:
+			correct = correct + 1
+	if correct >= 19:
+		return N;
+	else:
+		return 0;
+
+My personal opinion is that Pythonista is the most useful, most well-crafted application I have ever used or heard of. The developer is an artist as much as he is a gifted programmer. I recommend it to beginning and advanced programmers alike.
+
+
 ----
 
 ### Further apps to add
