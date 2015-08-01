@@ -68,7 +68,7 @@ Pythonista is nominally an IDE (Integrated Development Environment) for Python 2
 * ways to interact with APIs, such as that of Dropbox or Philips Hue,
 * and even access to new modules and scripts from the vast frontier of the Internet.
 
-These are just what I've encountered; they barely scratch the *current* capabilities of the application. Capabilities that are bound to expand in the next iteration. 
+These are just what I've encountered; they barely scratch the *current* capabilities of the application. Capabilities that are bound to expand in the next iteration.
 
 I started off using Python to prototype algorithms for my research in computational physics (yes, it's that good) and have even used it for experimenting in my graduate-level computer science classes. I'll include some code I wrote *entirely* in Pythonista below (part of a proof-of-concept RSA algorithm implementation).
 
@@ -92,15 +92,34 @@ I started off using Python to prototype algorithms for my research in computatio
 
 My personal opinion is that Pythonista is the most useful, most well-crafted application I have ever used or heard of. The developer is an artist as much as he is a gifted programmer. I recommend it to beginning and advanced programmers alike.
 
+### The ultimate remote access utility bundle: Prompt 2, Transmit, and Coda
+
+All of these applications are made by a company called Panic. They make apps of superior quality, so I recommend them as an entity to programmers and especially web designers/programmers.
+
+#### Prompt 2
+
+Prompt 2 is a well-designed and easy to use SSH client. Have RSA keys for password-less authentication? Great. Prompt has you covered with a sort of "keychain" for them. It also has a repository for snippets, commonly used commands or sequences of commands, that can be global or site specific. You can also group your sites into folders to stay organized.
+
+#### Transmit
+
+Transmit is a remote file access client that can use a variety of protocols. To reiterate my description of Prompt, it is well-designed. It has a local file manager also, so that you can create and upload or download and edit files right on your device.
+
+#### Coda (for iOS)
+
+I purchased "Diet Coda" for the iPad about two years ago (the spiritual predecessor to Coda for iOS) and was elated to see it had been updated. Of course, by "updated" I mean completely rewritten and redesigned. The only minor annoyance is that it had been rewritten to encompass the functionality of Prompt 2 and Transmit, so I wish I could have just bought it first. However, all things considered, I have gotten my money's worth out of all three, so no hard feelings, Panic. Thanks for writing great apps.
+
+Back to the functionality of the app. Remote sites can be organized into folders, keys can still be added and saved, and snippets can also be saved for use globally and site-specifically. One little detail that I absolutely love is that I can load a custom font and use it in the editor. Which is nice because I really like this font, [Monoid](https://github.com/larsenwork/monoid), on GitHub. As a matter of fact, so much attention to detail has been put into this app that there are lots of neat little bonuses hidden throughout the application.
+
+This is the link to the [Panic Inc. website](https://panic.com/).
 
 ----
 
 ### Further apps to add
 
-1. Pythonista
-2. Coda for iOS
-3. Prompt 2
-4. Transmit
+1. Pythonista -- check
+2. Coda for iOS -- check
+3. Prompt 2 -- check
+4. Transmit -- check
 5. Workflow
 6. 1Password
 7. ProCamera 8
