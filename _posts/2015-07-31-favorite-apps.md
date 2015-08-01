@@ -18,6 +18,8 @@ Finally, the swipes: they are customizable and easy to use.
 
 I recommend Dispatch to people who like combining the use of other services with their email workflow, and who might be considered "power users". It is a powerful tool if you know how to use it.
 
+[Dispatch: Action-based email](http://www.dispatchapp.net)
+
 ### Task manager: Todoist
 
 I hate to sound like a shameless fanboy, but Todoist *made me more productive*. It is an intuitive program with a gentle learning curve. The UI is simple. You add tasks, you complete them. You can make it as robust as you want by adding projects, sub-tasks, tags, and reminders.
@@ -25,6 +27,8 @@ I hate to sound like a shameless fanboy, but Todoist *made me more productive*. 
 My favorite feature, however, is "Karma". You earn Karma for finishing tasks. I use it to compete with myself; to see if I can get more done this week than last.
 
 I recommend Todoist to people who like keeping track of what they get done, a good system of self-reinforcement, and a simple interface but powerful interface.
+
+[Todoist website](http://www.todoist.com)
 
 ### For editing code on the go: Textastic
 
