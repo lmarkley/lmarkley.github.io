@@ -40,6 +40,6 @@ For example, most of the first iteration of this post was written in and publish
 
 Not only is Editorial useful, it is also very clean, well-crafted, and a pleasure to use.
 
-Notes (and then some): Drafts 4
+### Notes (and then some): Drafts 4
 
 Drafts 4 is one of those apps that you may see and say, "$10 for a note-taking app?!". However, let me say that, much like with Editorial, saying that this is just a note-taking app is doing it a disservice. Drafts 4 is great for jotting down a quick note, no two ways about it. But what do you do with that note once you've written it down? With Drafts, you can do any number of things like searching for an address you've written down, adding a task in Todoist (or another app with a **URL Scheme**), or adding links to a read-it-later app; it uses short "actions" to do these things with the text you supply.
