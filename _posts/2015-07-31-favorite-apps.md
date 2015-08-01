@@ -76,7 +76,7 @@ I started off using Python to prototype algorithms for my research in computatio
 
 	def fermat ( prime_length ):
 		if prime_length <= 0:
-		return 0;
+			return 0;
 		N = random.randrange(mod_pow(10,prime_length-1), mod_pow(10,prime_length))
 		if (N%2) == 0:
 			N += 1
