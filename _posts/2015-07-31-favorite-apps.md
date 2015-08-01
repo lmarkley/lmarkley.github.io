@@ -75,20 +75,20 @@ I started off using Python to prototype algorithms for my research in computatio
 *Note* this is an implementation of Fermat's Little Theorem, a test of primality. I can't really vouch for how well it works, but it worked for my very basic purposes. I just wanted to show how easy writing code is in Pythonista.
 
 	def fermat ( prime_length ):
-	if prime_length <= 0:
+		if prime_length <= 0:
 		return 0;
-	N = random.randrange(mod_pow(10,prime_length-1), mod_pow(10,prime_length))
-	if (N%2) == 0:
-		N += 1
-	correct = 0
-	for i in xrange(0,20):
-		test_num = random.randint(1,N-1)
-		if mod_pow(test_num,N-1,N) == 1:
-			correct = correct + 1
-	if correct >= 19:
-		return N;
-	else:
-		return 0;
+		N = random.randrange(mod_pow(10,prime_length-1), mod_pow(10,prime_length))
+		if (N%2) == 0:
+			N += 1
+		correct = 0
+		for i in xrange(0,20):
+			test_num = random.randint(1,N-1)
+			if mod_pow(test_num,N-1,N) == 1:
+				correct = correct + 1
+		if correct >= 19:
+			return N;
+		else:
+			return 0;
 
 My personal opinion is that Pythonista is the most useful, most well-crafted application I have ever used or heard of. The developer is an artist as much as he is a gifted programmer. I recommend it to beginning and advanced programmers alike.
 
