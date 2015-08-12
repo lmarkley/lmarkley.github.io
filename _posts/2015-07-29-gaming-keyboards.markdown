@@ -10,6 +10,8 @@ It turns out that computers that are good for doing complex mathematics, large c
 
 I have a Logitech G910 "Orion Spark"[^Orion] with a numerical pad and also nine programmable macro keys [^keys]. With Logitech's Gaming Software, you can assign these macro keys to a regular old single key, a many-key shortcut, a macro, or even to enter a block of text. Basically, you can have those keys do *anything* you can come up with.
 
+<figure> <a href="http://lmarkley.github.io/images/asset.tif"><img src='http://lmarkley.github.io/images/asset.tif'></a>The Logitech G910 "Orion Spark" as I have it set up now. The keys light up as I press them!</figcaption></figure>
+
 For example, I use one such macro key to enter my signature for emails. This may not seem very useful at first, but if you write a lot of emails for different purposes, it's nice to have a way to add a signature when needed sporadically. I have another couple of macros that launch my Cygwin terminal (currently using the Babun distribution from an [earlier post](http://particles.fitzlarolds.net/Nmap-and-other-things/)) and send commands to connect to an SSH session on a remote machine. This reduces my clicking and typing to a single keystroke. These are some *simple* examples of things you can do with macros; I am finding new uses every time I log in to my computer.
 
 ### Keyboard shortcuts with AutoHotkey
