@@ -1,19 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:4000/my-new-post/</loc>
-    <lastmod>2015-05-27T19:37:51-04:00</lastmod>
+    <loc>http://lmarkley.github.io/ST3/</loc>
+    <lastmod>2015-08-12T12:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/</loc>
+    <loc>http://lmarkley.github.io/favorite-apps/</loc>
+    <lastmod>2015-07-31T18:15:00-04:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/posts/</loc>
+    <loc>http://lmarkley.github.io/gaming-keyboards/</loc>
+    <lastmod>2015-07-29T13:30:00-04:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/about/</loc>
+    <loc>http://lmarkley.github.io/Nmap-and-other-things/</loc>
+    <lastmod>2015-07-11T17:14:00-04:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/theme-setup/</loc>
+    <loc>http://lmarkley.github.io/ARK/</loc>
+    <lastmod>2015-06-06T12:30:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://lmarkley.github.io/the-witcher-3-titan-X/</loc>
+    <lastmod>2015-05-29T07:37:51-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://lmarkley.github.io/posts/</loc>
+    <lastmod>2015-09-01T15:09:59-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://lmarkley.github.io/</loc>
+    <lastmod>2015-09-01T15:09:59-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://lmarkley.github.io/</loc>
+    <lastmod>2015-09-01T15:09:59-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://lmarkley.github.io/about/</loc>
+    <lastmod>2015-09-01T15:09:59-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://lmarkley.github.io/theme-setup/</loc>
+    <lastmod>2015-09-01T15:09:59-04:00</lastmod>
   </url>
 </urlset>

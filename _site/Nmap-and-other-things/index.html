@@ -1,0 +1,317 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>A 'Bourne again' shell scripter &#8211; On Particles and Processors 2.0</title>
+<meta name="description" content="A blog about technology, science, and humans.">
+<meta name="keywords" content="">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://lmarkley.github.io/images/">
+<meta name="twitter:title" content="A 'Bourne again' shell scripter">
+<meta name="twitter:description" content="A blog about technology, science, and humans.">
+<meta name="twitter:creator" content="@lmarkley12">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="A 'Bourne again' shell scripter">
+<meta property="og:description" content="A blog about technology, science, and humans.">
+<meta property="og:url" content="http://lmarkley.github.io/Nmap-and-other-things/">
+<meta property="og:site_name" content="On Particles and Processors 2.0">
+
+
+
+
+
+<link rel="canonical" href="http://lmarkley.github.io/Nmap-and-other-things/">
+<link href="http://lmarkley.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="On Particles and Processors 2.0 Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://lmarkley.github.io/assets/css/main.css">
+<!-- Webfonts -->
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://lmarkley.github.io/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://lmarkley.github.io/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://lmarkley.github.io/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://lmarkley.github.io/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://lmarkley.github.io/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://lmarkley.github.io/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://lmarkley.github.io/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://lmarkley.github.io/">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="http://lmarkley.github.io/images/profile2.png" alt="Larry C. Markley photo" class="author-photo">
+					<h4>Larry C. Markley</h4>
+					<p>Gamer. Programmer. Technology enthusiast.</p>
+				</li>
+				<li><a href="http://lmarkley.github.io/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+				<li>
+					<a href="mailto:lmarkley12@gmail.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				<li>
+					<a href="http://twitter.com/lmarkley12"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="http://github.com/lmarkley"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">Posts</a>
+			<ul class="dl-submenu">
+				<li><a href="http://lmarkley.github.io/posts/">All Posts</a></li>
+				<li><a href="http://lmarkley.github.io/tags/">All Tags</a></li>
+			</ul>
+		</li>
+		
+	    
+	        
+	    
+	    <li><a href="http://lmarkley.github.io/about/" >About</a></li>
+	  
+	    
+	        
+	    
+	    <li><a href="http://lmarkley.github.io/posts/" >Posts</a></li>
+	  
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://lmarkley.github.io/Nmap-and-other-things/" rel="bookmark" title="A 'Bourne again' shell scripter">A 'Bourne again' shell scripter</a></h1>
+        
+        <h2><span class="entry-date date published"><time datetime="2015-07-11T17:14:00-04:00">July 11, 2015</time></span></h2>
+        
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~9 minutes
+        </p><!-- /.entry-reading-time -->
+        
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>I’ve been playing around with bash (the Bourne Again SHell) scripts for about two years now. At first, it was a passing necessity to automate programs for the research I was working on. Then I realized the tremendous power that lie within scripting in bash. I think about it like this: You are essentially giving directions <em>directly</em> to the “brain” of your computer. All that raw power at your fingertips without having to go through someone else’s “black box” of a user interface, that does god-knows-what behind the scenes; it is exhilarating (to a nerd like me).</p>
+
+<p>That is not to say that you can’t <strong>severely</strong> screw up everything on your computer with this stuff (I have on many occasions done just that), but if you do your homework and experiment a little you’re usually safe.</p>
+
+<h3 id="ssh-scp--sftp">SSH, SCP, &amp; SFTP</h3>
+
+<p>I do a lot of work remotely. Needless to say, I don’t want everyone in the world to be able to pick what I’m doing out of the air and have access to any personal data. So I employ the use of SSL (Secure Socket Layer) encryption in the form of SSH, SCP, and SFTP; which are Secure SHell, Secure CoPy, and Secure File Transfer Protocol, respectively. You may have heard of SSL, it is responsible for encrypting anything from secure chats to bank transfers, and with the exception of a few problems (like Heartbleed) it has worked well (especially for being open-source and staffed by mostly volunteers as I understand it). I won’t go into the details of exactly how it works (I don’t understand it fully, so I wouldn’t feel comfortable), but I might throw in an example or two later on. Of the three, I use SSH the most to run remote commands to do work while I’m away (and even to tunnel a VNC session if I have enough bandwidth).</p>
+
+<h4 id="ssh">SSH</h4>
+
+<p>SSH has pretty simple syntax for the most basic applications. For example, if I want to log on to a server called ‘myserver’ with the username ‘bob’, on the port ‘2468’ (the default port for SSH is 22, for future reference), I would enter the following in the terminal:</p>
+
+<pre><code>ssh -p 2468 bob@myserver
+</code></pre>
+
+<p>Then SSH would prompt me for the password for ‘bob’, unless I have an SSH key <sup id="fnref:keys"><a href="#fn:keys" class="footnote">1</a></sup>.</p>
+
+<p>Another cool thing possible with SSH is <em>tunneling</em>. It might sound a bit nefarious, but it’s used for all sorts of practical things from creating a “poor man’s VPN”, to circumventing restrictive firewalls, or even just being able to get desktop Gmail at work. There are many types of tunnels, but the one I will share here (without telling you how to do everything, that may require a bit of searching) is for a <em>dynamic port forwarding tunnel</em>. In other words, it forwards all of the traffic on your computer through a remote server to the rest of the Internet. This can be done with the following command:</p>
+
+<pre><code>ssh -D &lt;local port&gt; &lt;user&gt;@&lt;server&gt; -N
+</code></pre>
+
+<p>The <code>D</code> is for dynamic and it takes a port on your local computer as an argument, the <code>N</code> is so you don’t enter what is called an interactive session (i.e. you can’t send commands). It always makes things a little easier to use password-less authentication, but that lies beyond the scope of this post.</p>
+
+<h4 id="scp">SCP</h4>
+
+<p>The Secure CoPy (SCP) tool can be very useful if you need to send a file to or get a file from somewhere that you don’t have physical access to (and possibly don’t want to use an SFTP or FTP client, etc.). Again, the syntax is pretty simple for basic stuff. For example, let’s say I have the same computer as above and I want to send a shell script (‘script.sh’) in my home directory (or in the second case, get a shell script <em>from</em> the home directory of ‘myserver’), then I would enter these commands in the terminal:</p>
+
+<pre><code>scp -P 2468 shell.sh bob@myserver:~/
+</code></pre>
+
+<p>or to fetch the same file:</p>
+
+<pre><code>scp -P 2468 bob@myserver:~/shell.sh ~/
+</code></pre>
+
+<p>The same thing goes here; you’ll be prompted for a password unless you have an SSH key.</p>
+
+<h3 id="network-tools">Network tools</h3>
+
+<p>There are some really nice network tools available for bash. I’ll go over a few (there are <em>tons</em>) here and give a brief overview of some things that they can do.</p>
+
+<h4 id="ping">Ping</h4>
+
+<p>Ping is probably the best known of all of the network tools (possibly even command line tools) in bash. It has extensive applications, but most commonly I use it to see how well one computer (a client) is communicating with another (a host). For example, if I wanted to see if my computer was communicating well with my router (located at, say, 10.0.0.1 which is an IP address) I would enter</p>
+
+<pre><code>ping 10.0.0.1
+</code></pre>
+
+<p>That’s it! Then it will send some information to the host and see how much it gets back. The more it gets back, the better. Again, that’s not all, but it’s enough to get you going!</p>
+
+<h4 id="arp">Arp</h4>
+
+<p>ARP stands for “Address Resolution Protocol”. It is how computers know where one another are, and how to get from point A to point B (so to speak) in a network. The <code>arp -a</code> returns the ARP table for the network you are connected to, with all of the live hosts (network devices that are connected and on) and their IP and MAC addresses. This is useful information if you want to know how many devices are connected to your network and “where” they are on it.</p>
+
+<h4 id="nmap">Nmap</h4>
+
+<p>Nmap doesn’t come stock with bash; it is third party software but it is one of my favorites so I’m mentioning it. Before I go on, the obligatory disclaimer: <strong>DO NOT USE NMAP ANYWHERE YOU SHOULDN’T</strong> and <strong>IF YOU AREN’T SURE YOU ARE ALLOWED TO USE IT, YOU PROBABLY AREN’T</strong>. Now that we’ve that out of the way, Nmap is an incredibly powerful and versatile information gathering tool. It scans the nebulous entities known as ports on a computer; can gather information about the operating system and services available from a computer; and various other features that are rather esoteric. I personally use it to look for my computer when its IP address changes on my local network and I’m not there to check what it might be. There is a GUI version of Nmap called Zenmap that is rather nifty as well. You can find information about Nmap and Zenmap on <a href="https://nmap.org">the official Nmap site</a><sup id="fnref:nmap"><a href="#fn:nmap" class="footnote">2</a></sup>.</p>
+
+<h3 id="file-and-text-tools">File and text tools</h3>
+
+<h4 id="vi-or-vim"><code>vi</code> (or Vim)</h4>
+
+<p>Possibly the most powerful tool at the fingertips of any computer software tinkerer is a good text editor. Luckily, <code>vi</code> is a <em>great</em> text editor, often lauded as <em>the</em> text editor. I have to admit, I’ve gotten a bit rusty in my Vim skills. I’ve been spoiled with Sublime Text for some time now. Though having a big, fancy text editor is great, what happens when you don’t have those luxuries like a mouse or a user interface? Vim is a veritable (and venerable) Swiss army knife; you <em>need</em> to keep it in your pocket, especially out in the wild. To get back to the practical point, <code>vi</code> is completely text-based and uses keyboard shortcuts to keep your hands on the keyboard. While it is easy to pick up the basics, becoming proficient can be tough (but it’s worth it).</p>
+
+<p>I am actually editing this section of this post in Vim now. I have to say, even being rusty, the shortcuts and syntax highlighting are still incredible and fast.</p>
+
+<h3 id="other-tools">Other tools</h3>
+
+<h4 id="tmux"><code>tmux</code></h4>
+
+<p>It is my understanding that <code>tmux</code> is short for ‘terminal multiplexer’, which means that you can have multiple instances of shell in the same terminal session in the form of panes or windows.</p>
+
+<figure> <a href="http://lmarkley.github.io/images/tmux.png"><img src="http://lmarkley.github.io/images/tmux.png" /></a> A screenshot of writing this post in Vim using tmux panes.</figure>
+
+<h3 id="other-cool-stuff">Other cool stuff</h3>
+
+<h4 id="babun">Babun</h4>
+
+<p>I discovered <a href="http://babun.github.io">Babun</a> a few days ago after hearing it on a podcast called “Programming Throwdown” which, by the way, is wonderful. You should listen to it. It’s funny <em>and</em> informative, though I will warn you that the nominal topic only gets about 15-20 minutes toward the end of the show in my experience <sup id="fnref:progthrow"><a href="#fn:progthrow" class="footnote">3</a></sup>. Babun is an implementation of Cygwin and a lot more; it has many plugins and add-ons and one thing that Cygwin lacks out-of-the-box: an included package manager. It’s easy to setup and, as the home page states, doesn’t interfere with previous Cygwin installations (I can vouch for that, it didn’t mess with mine at all). If you are a Windows user but miss a good (sorry Microsoft…) command line interface, try Babun.</p>
+
+<h4 id="atom">Atom</h4>
+
+<p>Atom is “A hackable text editor for the 21st Century” as the website states. It is free; open-source; and has a plethora of themes, packages, and add-ons for increased utility. I started using Atom well before its 1.0 date, but found it difficult to work with on Windows. This has since changed; it is as simple to install and use as double clicking the installer and starting it up. It is also cross-platform, which is very nice for a person who uses Linux, OS X, and Windows on a rotating basis (occasionally two simultaneously, which can get really confusing) like me. It is <em>very</em> customizable and chic, and I recommend giving it a shot if you like free, open-source, awesome stuff <sup id="fnref:atom"><a href="#fn:atom" class="footnote">4</a></sup></p>
+
+<h3 id="references">References</h3>
+
+<ol>
+  <li><a href="https://github.com/jlevy/the-art-of-command-line">The Art of Command Line</a>
+    <ul>
+      <li>I recently came upon this repository and I was rendered speachless by the wealth of useful information on this page. I recommend checking it out.</li>
+    </ul>
+  </li>
+  <li><a href="http://hyperpolyglot.org/unix-shells">Hyperpolyglot: Unix Shells</a>
+    <ul>
+      <li>I also recently found this gem. It is useful for programming in general, but I’ve linked to the Unix Shells page here.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>To be continued….</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:keys">
+      <p>I like to think of SSH keys this way (though it is a gross oversimplification): It’s like having a security system that you have the master code for, but there are other codes for other people (computers) that you ‘trust’ (or have authorized) so that they can get in as well. Each of these people (computers) has a unique code (signature) so that you know it is them and not someone else. <a href="#fnref:keys" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:nmap">
+      <p>Nmap even has a Python module: <code>python-nmap</code>. <a href="#fnref:nmap" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:progthrow">
+      <p><em>Programming Throwdown</em> is hosted by Jason Gauci and Patrick Wheeler. It is my favorite podcast for several reasons, but mainly because the it is always informative and the hosts have real charisma (albeit a nerdy manifestation of it). Here is a link to the Google+ page if you would like more information: https://plus.google.com/communities/103949530542621693799 <a href="#fnref:progthrow" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:atom">
+      <p>More information can be found on the <a href="http://atom.io">Atom homepage</a>, as well as the download links. <a href="#fnref:atom" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://lmarkley.github.io/Nmap-and-other-things/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://lmarkley.github.io/Nmap-and-other-things/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://lmarkley.github.io/Nmap-and-other-things/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://lmarkley.github.io/ARK/" class="read-more-btn">Read More</a>
+    </div><!-- /.read-more-header -->
+    <div class="read-more-content">
+      <h3><a href="http://lmarkley.github.io/ST3/" title="Sublime Text: (Insert superlative here)">Sublime Text: (Insert superlative here)</a></h3>
+      <p>There are purists that would have you believe that programming is something best done with a plain text editor, Vim, and/or the command l...&hellip; <a href="http://lmarkley.github.io/ST3/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://lmarkley.github.io/favorite-apps/" title="My favorite iOS applications">My favorite iOS applications</a></h4>
+        <span>Published on July 31, 2015</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://lmarkley.github.io/gaming-keyboards/" title="Gaming keyboards and productivity">Gaming keyboards and productivity</a></h4>
+        <span>Published on July 29, 2015</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2015 Larry C. Markley. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://lmarkley.github.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://lmarkley.github.io/assets/js/scripts.min.js"></script>
+
+
+
+	        
+
+</body>
+</html>
