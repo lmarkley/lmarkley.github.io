@@ -28,7 +28,7 @@ I hate to sound like a shameless fanboy, but Todoist *made me more productive*. 
 
 My favorite feature, however, is "Karma". You earn Karma for finishing tasks. I use it to compete with myself; to see if I can get more done this week than last.
 
-I recommend Todoist to people who like keeping track of what they get done, a good system of self-reinforcement, and a simple interface but powerful interface.
+I recommend Todoist to people who like keeping track of what they get done, a good system of self-reinforcement, and a simple but powerful interface.
 
 [Todoist website](http://www.todoist.com)
 
