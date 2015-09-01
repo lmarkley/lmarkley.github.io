@@ -18,6 +18,8 @@ Finally, the swipes: they are customizable and easy to use.
 
 I recommend Dispatch to people who like combining the use of other services with their email workflow, and who might be considered "power users". It is a powerful tool if you know how to use it.
 
+*Update* Dispatch recently solidified its position as my favorite email app by adding iPad support and updating some actions. For me, this is wonderful news because it reduces the number of email clients on iOS I now use to *one*.
+
 [Dispatch: Action-based email](http://www.dispatchapp.net)
 
 ### Task manager: Todoist
@@ -43,6 +45,8 @@ The interface is very simple: you can add remote sites, download files, edit fil
 To say that Editorial is *just* a writing app would be do it a great disservice; it is a very flexible, customizable text editor with the ability to create workflows and scripting to increase productivity and generally just do some really neat stuff.
 
 For example, most of the first iteration of this post was written in and published from Editorial using user-created and submitted workflows. Workflows can be as simple as copying all of the text as plain text or HTML, to interacting with APIs and uploading a blog post to GitHub (as was done here).
+
+*Update*: I recently found a capability in Editorial that I hadn't realised was there: Sending encrypted emails with an app called [iPGMail](https://ipgmail.com/) used to encrypt the email (using a URL Scheme), and then sending the encrypted message to Dispatch to send it. It seems that I didn't emphasize enough how flexible and powerful Editorial is previously.
 
 Not only is Editorial useful, it is also very clean, well-crafted, and a pleasure to use.
 
@@ -91,6 +95,8 @@ I started off using Python to prototype algorithms for my research in computatio
 			return 0;
 
 My personal opinion is that Pythonista is the most useful, most well-crafted application I have ever used or heard of. The developer is an artist as much as he is a gifted programmer. I recommend it to beginning and advanced programmers alike.
+
+*Update*: I have been on the Pythonista forums more often of late and I have to say that the developer is dedicated to his users; I asked a question on the forum and got a response that same night.
 
 ### The ultimate remote access utility bundle: Prompt 2, Transmit, and Coda
 
