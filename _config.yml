@@ -1,68 +1,25 @@
-title:            On Particles and Processors 2.0
-description:      A blog about technology, science, and humans.
-reading_time:     true
-words_per_minute: 200
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
-url:  http://particles.fitzlarolds.net
+# Site settings
+title: On Particles and Processors
+email: lmarkley12@gmail.community
+description: > # Writer Theme is a responsive template
+ focussed on typography, minimal design and
+  quality photography built using the Jekyll platform.
+baseurl: "/writer/" # the subpath of your site, e.g. /blog
+url: "particles.fitzlarolds.net" # the base hostname & protocol for your site
+enable_retina: true
+permalink: :title
+nav_list:
+  Home : ['Home', '/', 'fa-home']
+  Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
+  Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
+  About : ['About', '/about', 'fa-anchor']
+  Contact : ['Contact', '/contact', 'fa-plane']
+  Author : ['Author', '/author/michelle', 'fa-user']
+single_footer: '<p>The writer community loves your content. Writer &copy; 2015 <a href="/">latest posts</a></p>'
+footer_links:
+    About: ['About', '/about']
+    Writer: ['Writer 2015', '/about']
 
-# Owner/author information
-owner:
-  name:           Larry C. Markley
-  avatar:         profile2.png
-  bio:            "Gamer. Programmer. Technology enthusiast."
-  email:          lmarkley12@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        lmarkley12
-  facebook:
-  github:         lmarkley
-  stackexchange:
-  linkedin:
-  instagram:
-  flickr:
-  tumblr:
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:
 
-# Background image to be tiled on all pages
-background:
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
-highlighter: pygments
-markdown:    kramdown
-gems:
-  - jekyll-sitemap
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
-
-# Amount of post to show on home page
-paginate: 5
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: true
-
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+# Build settings
+markdown: kramdown
