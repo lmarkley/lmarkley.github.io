@@ -1,0 +1,35 @@
+---
+layout: post
+title: "'ARK: Survival Evolved' initial impressions"
+date: 2015-06-06T12:30:00-04:00
+---
+
+I was perusing the selection on Steam a couple of days ago and ran across something that intrigued me: a game survival game with dinosaurs. I should preface the following with the fact that I *do not* generally like survival games, *do not* generally like games where humans and dinosaurs coexist (anything in which they coexist, actually), and am a bit wary of "Early Access" titles (I have been disappointed in the past). However, after watching the (rather intense) trailer [^trailer] for *ARK: Survival Evolved*, I took a chance; there was bait dangled in front of me and I bit.
+
+### The premise and basis of gameplay
+
+From what I can glean from the description of the game on Steam and what I have experienced thus far, the premise is that you are a human (male or female) that wakes up on a mysterious island with nothing but your skin and a strange, alien implant in your left arm. As you come to, you can look around and see that this island is lush and rich in resources, but also rich in something else: dinosaurs (and other interesting fauna [^dodo]). The player must negotiate gathering resources, finding shelter, warmth, shade, water, food, and even relieving one's self from time to time (complete with a humorous sound effect).
+
+There are RPG elements in the game; for example, there are "Engram Points" that are used to obtain new "blueprints" for various crafted items that can be made once learned. There is also an upgrade system in which you can augment your health, stamina, water capacity, etc. I found this system to be simple to learn and intuitive to manage. If my character is thirsty, I find water; hungry, (towards the beginning) I eat some berries [^tutorial]
+
+### Graphics
+
+The largest complaint I have read about this game is the low framerate on many machines. I have experienced this phenomenon as well, but most of the time it is barely noticeable on my laptop. 
+
+That being said, the landscape, creatures, water, and motion are all something to behold and are rendered beautifully. I first played on a public server and the graphics were phenomenal. Since then I have played locally on my laptop (which is no slouch) and the game is still rendered beautifully, though not quite as well as on the server, as expected. Below are some screenshots from the server and my laptop.
+
+<figure> <a href="http://drops.fitzlarolds.net/1bpdy+"><img src='http://drops.fitzlarolds.net/1bpdy+'></a> <figcaption>In game graphics while playing on the public server.</figcaption></figure> 
+
+<figure> <a href="http://drops.fitzlarolds.net/1irSC+"><img src='http://drops.fitzlarolds.net/1irSC+'></a> <figcaption>In game graphics while playing locally on my laptop.</figcaption></figure> 
+
+### Summation
+
+As stated in the title, this is very much a statement of my initial impressions, which can be summed up like this: "Wow." I think that if this is how the game is in "Early Access", I can't wait to see what it's like as a full release. 
+
+I would say that if you've got the time and an extra thirty or so dollars, get this game.
+
+[^trailer]: https://www.youtube.com/watch?v=FW9vsrPWujI
+
+[^dodo]: Not the least of which is the amusing Dodo. The game has, I believe, about 40 species of creatures (some hostile, some not) with more planned.
+
+[^tutorial]: There is no real tutorial element to the game; you are thrown in with the controls and common sense. What might you actually do to survive in this environment? There are item descriptions which are helpful, but don't ruin any surprises. 
