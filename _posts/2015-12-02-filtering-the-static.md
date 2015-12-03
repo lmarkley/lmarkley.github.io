@@ -2,6 +2,7 @@
 layout: post
 title: "Filtering the Static"
 date: 2015-12-02T19:55:00-05:00
+feature_image: http://opnp.fitzlarolds.com/content/images/2015/11/static-tv.jpg
 ---
 
 ## A brief history of signals
