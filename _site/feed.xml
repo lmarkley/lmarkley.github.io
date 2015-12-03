@@ -1,285 +1,567 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Writer Theme</title>
+    <title>On Particles and Processors</title>
     <description>focussed on typography, minimal design and
  quality photography built using the Jekyll platform.
 </description>
-    <link>/writer//</link>
-    <atom:link href="/writer//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Mar 2015 20:48:39 +0000</pubDate>
-    <lastBuildDate>Sun, 15 Mar 2015 20:48:39 +0000</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>particles.fitzlarolds.net/writer//</link>
+    <atom:link href="particles.fitzlarolds.net/writer//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 02 Dec 2015 19:19:16 -0500</pubDate>
+    <lastBuildDate>Wed, 02 Dec 2015 19:19:16 -0500</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>10 Reasons to travel the world</title>
-        <description>&lt;p&gt;Ask yourself, why not? What is the number one reason you wouldn’t. If the reason you get back is fear, you should just do it.&lt;/p&gt;
+        <title>Sublime Text: (Insert superlative here)</title>
+        <description>&lt;p&gt;There are purists that would have you believe that programming is something best done with a plain text editor, Vim, and/or the command line, and they are (for the most part) absolutely correct. However, for those that are &lt;em&gt;not&lt;/em&gt; purists, (insofar as not respecting that particular aesthetic) there are very powerful and flexible tools available. One such tool is Sublime Text. To be clear, I think that programmers &lt;em&gt;should&lt;/em&gt; be able to get by with nothing but a plain text editor and the command line. When not “in the field,” on my own computer, I like to have a bit more of a personalized experience.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati doloribus, culpa, et suscipit praesentium incidunt, libero officiis ipsum fugiat odit aperiam commodi unde dignissimos veritatis accusamus molestias iste magni nobis?&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;//writer/img/post-assets/fire.jpg&quot; alt=&quot;Fire image&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;reasons-for-my-choosing-sublime-text&quot;&gt;Reasons for my choosing Sublime Text&lt;/h4&gt;
 
-&lt;p&gt;Kale chips bespoke church-key American Apparel flannel pickled. Mlkshk High Life Blue Bottle, leggings gastropub four dollar toast post-ironic fap American Apparel VHS. Cliche cold-pressed single-origin coffee mlkshk retro distillery. 3 wolf moon Tumblr selvage semiotics food truck. Intelligentsia Pitchfork meh sriracha chambray, fanny pack lomo irony fap pickled stumptown. Twee +1 artisan, cred ethical gluten-free 90’s four loko Odd Future cronut small batch organic. Seitan hashtag jean shorts art party messenger bag.&lt;/p&gt;
+&lt;p&gt;This will seem silly to the more seasoned among you, but one of my first reasons for choosing Sublime Text was syntax highlighting of many languages. This comes in handy when you’re handed a program written in Fortran on your first day of graduate research (having only heard of Fortran referred to jokingly up to this point) and have no idea how to pick it apart. Now Sublime Text doesn’t have the built-in ability to syntax highlight Fortran, but it only took about five minutes and a Google search to configure it to do so. That is one prominent feature of Sublime Text, possibly &lt;em&gt;the&lt;/em&gt; feature: its customizability/configurability.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Scenester Echo Park tilde&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;I also chose Sublime Text because of something called “Package Control.” Package Control is a repository for—you guessed it—packages that can be installed within Sublime Text to augment its capabilities. It is incredibly easy to set up (again, a single Google search turns up everything you need to know) and to use once it is installed. An example of a package in Package Control is “MarkdownEditing” which is not-so-coincidentally what I am writing this post with. There are also “Themes” and “Color Schemes” to download; this adds another layer of that “personal touch” to the editor (I’ll share some of my favorite packages, themes, and color schemes later). All of this is maintained by a very active community of contributors.&lt;/p&gt;
 
-&lt;p&gt;Locavore brunch kale chips vegan selvage High Life you probably haven’t heard of them before they sold out pork belly. Flexitarian organic wayfarers, cronut food truck bicycle rights drinking vinegar bespoke meditation mustache swag mumblecore semiotics locavore. Whatever kogi readymade, jean shorts pork belly chia distillery wayfarers. Art party single-origin coffee four dollar toast VHS, try-hard hoodie kogi normcore Neutra actually church-key flexitarian swag.&lt;/p&gt;
+&lt;p&gt;The bottom line is that Sublime Text is exactly what I wanted from a programming text editor. I have even developed a weird sense of pride in my configuration because I think it is a reflection of how I work and huge contributor to my workflow.&lt;/p&gt;
 
+&lt;p&gt;A critique of this post may be that I haven’t discussed the fact that Sublime Text isn’t free, so let’s take care of that: it’s not free. You can download the editor for free and use its full capabilities, but you will occasionally be reminded that your copy is “UNREGISTERED”. It costs 70 dollars for a personal license that you can install on any computer you own, for personal use. I took into consideration that those 70 dollars were going to help develop this wonderful piece of software, so I decided to buy a license. However, that may not be the case for everyone and there are other options, my favorite of which I will mention later.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;some-of-my-favorite-features&quot;&gt;Some of my favorite features&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Multiple edit
+    &lt;ul&gt;
+      &lt;li&gt;You can actually select multiple spots in your code and batch edit several lines at a time. When combined with a robust “Find/Find All” function, this can save a lot of time.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Build systems
+    &lt;ul&gt;
+      &lt;li&gt;It is possible to create your very own “Build systems,” which are files that specify a way to compile, build, and even execute source code files in any way you see fit. This is very nice for prototyping some of the programs I write for my thesis research because I would have to use the same commands over and over (and over) in a terminal rather than just a single keystroke in Sublime Text.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Snippets
+    &lt;ul&gt;
+      &lt;li&gt;These little buggers are things that you would have to type repeatedly from memory were it not for the “Snippets” in Sublime Text. For example, to insert a figure with a caption in Markdown, I made a little snippet that types out the relevant HTML so &lt;em&gt;I don’t have to&lt;/em&gt;. I just type “ffigure”, hit the Tab key, and I’m off to the races.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Multiple panes
+    &lt;ul&gt;
+      &lt;li&gt;You can have two files open simultaneously, alongside one another (or three, four, etc. in various arrangements). This is nice if I’m using one file as a reference for another or if one is the header and the other on of the source code files.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The settings
+    &lt;ul&gt;
+      &lt;li&gt;The user-configurable settings are easy to access and you can change just about anything about how Sublime Text looks and behaves from these settings.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are really just a few of the capabilities, but they are some of my most frequently utilized.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;some-of-my-favorite-packages-and-themes&quot;&gt;Some of my favorite packages and themes&lt;/h4&gt;
+
+&lt;p&gt;Packages:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Markdown Editing&lt;/li&gt;
+  &lt;li&gt;Markdown Preview&lt;/li&gt;
+  &lt;li&gt;Terminal&lt;/li&gt;
+  &lt;li&gt;Alignment&lt;/li&gt;
+  &lt;li&gt;Bracket Highlighter&lt;/li&gt;
+  &lt;li&gt;SFTP&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Themes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Seti UI&lt;/li&gt;
+  &lt;li&gt;Freesia&lt;/li&gt;
+  &lt;li&gt;Brogrammer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;my-current-preferences-configuration&quot;&gt;My current Preferences configuration&lt;/h4&gt;
+
+&lt;p&gt;It’s pretty minimal, but it gets the job done.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;bold_folder_labels&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;color_scheme&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Packages/Seti_UI/Scheme/Seti_orig.tmTheme&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;font_face&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;InputMonoCondensed&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;font_options&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;subpixel_antialias&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;font_size&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;highlight_line&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;highlight_modified_tabs&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;ignored_packages&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Markdown&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Vintage&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;theme&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Seti.sublime-theme&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;my-other-favorite-free-text-editor-notepad&quot;&gt;My other favorite (free) text editor: Notepad++&lt;/h4&gt;
+
+&lt;p&gt;Notepad++ is free and frequently updated. It has some of the same potential for augmentation as Sublime Text and is lauded as being the best (which is why I’m not belaboring the point here). The only quibble I have consistently read about Notepad++ is that it is “not pretty,” to which I say “Who honestly cares?” Vim, Gedit, and other text editors aren’t absolutely visually stunning; that’s not why we use them (end short rant).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;closing-remarks&quot;&gt;Closing remarks&lt;/h4&gt;
+
+&lt;p&gt;If you’re in the market for a great (premium) programming text editor that is as powerful as it is fun to tweak, Sublime Text is for you. I think it would be safe to say that I haven’t gone a solid day without using it in the last two years (which I’m just now realizing might be a little sad).&lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Feb 2015 08:50:28 +0000</pubDate>
-        <link>/writer//ten-reasons-to-travel-the-world</link>
-        <guid isPermaLink="true">/writer//ten-reasons-to-travel-the-world</guid>
+        <pubDate>Wed, 12 Aug 2015 12:00:00 -0400</pubDate>
+        <link>particles.fitzlarolds.net/writer//ST3</link>
+        <guid isPermaLink="true">particles.fitzlarolds.net/writer//ST3</guid>
         
-        
-        <category>travel</category>
-        
-        <category>storytime</category>
         
       </item>
     
       <item>
-        <title>Supercharge Your Workflow With Grunt</title>
-        <description>&lt;p&gt;The Grunt ecosystem is huge and it’s growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort. If someone hasn’t already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze. See how to &lt;a href=&quot;http://gruntjs.com/&quot;&gt;get started&lt;/a&gt;.&lt;/p&gt;
+        <title>My favorite iOS applications</title>
+        <description>&lt;p&gt;Below I have collected my favorite iOS applications. I have spent a long time vetting the applications in this post, and I plan to add and subtract from it as necessary.&lt;/p&gt;
 
-&lt;p&gt;In one word: automation. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes. After you’ve configured it through a Gruntfile, a task runner can do most of that mundane work for you—and your team—with basically zero effort.&lt;/p&gt;
+&lt;h3 id=&quot;email-client-dispatch&quot;&gt;Email client: Dispatch&lt;/h3&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;I haven’t been able to find an email client application that can replace Dispatch on iOS. And that’s saying something because I have tried, just to prove a point.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;my-project-name&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&amp;quot;version&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;0.1.0&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&amp;quot;devDependencies&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&amp;quot;grunt&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;~0.4.5&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&amp;quot;grunt-contrib-jshint&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;~0.10.0&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&amp;quot;grunt-contrib-nodeunit&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;~0.4.1&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&amp;quot;grunt-contrib-uglify&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;~0.5.0&amp;quot;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This “app” (one of the most overused words anymore) is a productivity powerhouse. You can export messages in a variety of formats (PDF, PNG, text, etc.) and send emails to a variety of third-party applications for parsing or storing. For example, when I get an important email with a timeframe, I can send it to Todoist (more on Todoist later) and create a task with a due date, reminders, a specific priority, and keep things organized by putting it in the proper “project”.&lt;/p&gt;
 
-&lt;p&gt;The easiest way to add Grunt and gruntplugins to an existing &lt;code&gt;package.json&lt;/code&gt; is with the command &lt;code&gt;npm install &amp;lt;module&amp;gt; --save-dev&lt;/code&gt;. Not only will this install &lt;code&gt;&amp;lt;module&amp;gt;&lt;/code&gt; locally, but it will automatically be added to the devDependencies section, using a tilde version range.&lt;/p&gt;
+&lt;p&gt;Another wonderful thing about Dispatch is the overall UI/UX. It’s a beautiful app; simple, clean, and easy to use. I have a lot of folders in my email accounts, and I can pick the most used ones to be pinned to a side bar.&lt;/p&gt;
 
-&lt;p&gt;For example, this will install the latest version of Grunt in your project folder, adding it to your devDependencies:&lt;/p&gt;
+&lt;p&gt;Finally, the swipes: they are customizable and easy to use.&lt;/p&gt;
 
-&lt;p&gt;Grunt&lt;/p&gt;
+&lt;p&gt;I recommend Dispatch to people who like combining the use of other services with their email workflow, and who might be considered “power users”. It is a powerful tool if you know how to use it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; Dispatch recently solidified its position as my favorite email app by adding iPad support and updating some actions. For me, this is wonderful news because it reduces the number of email clients on iOS I now use to &lt;em&gt;one&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.dispatchapp.net&quot;&gt;Dispatch: Action-based email&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;task-manager-todoist&quot;&gt;Task manager: Todoist&lt;/h3&gt;
+
+&lt;p&gt;I hate to sound like a shameless fanboy, but Todoist &lt;em&gt;made me more productive&lt;/em&gt;. It is an intuitive program with a gentle learning curve. The UI is simple. You add tasks, you complete them. You can make it as robust as you want by adding projects, sub-tasks, tags, and reminders.&lt;/p&gt;
+
+&lt;p&gt;My favorite feature, however, is “Karma”. You earn Karma for finishing tasks. I use it to compete with myself; to see if I can get more done this week than last.&lt;/p&gt;
+
+&lt;p&gt;I recommend Todoist to people who like keeping track of what they get done, a good system of self-reinforcement, and a simple but powerful interface.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.todoist.com&quot;&gt;Todoist website&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;for-editing-code-on-the-go-textastic&quot;&gt;For editing code on the go: Textastic&lt;/h3&gt;
+
+&lt;p&gt;I have tried a few applications for editing code on my iPhone (it seems silly, but a little necessary change here or there happens so often that it becomes justified quickly), but the best that I’ve come across is Textastic. It has support for nearly any programming language you can throw at it and has good syntax highlighting themes. It also has the ability to link to cloud storage and SFTP servers, which is useful for working remotely.&lt;/p&gt;
+
+&lt;p&gt;The interface is very simple: you can add remote sites, download files, edit files, create new ones, etc. all with a few swipes of the thumb. It really doesn’t get any more straightforward, and the utility speaks for itself. I recommend this application to anyone who needs to edit a variety of files on the go, or even just write ideas down in plain text or markdown.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.textasticapp.com&quot;&gt;Textastic website&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;writing-on-the-go-editorial&quot;&gt;Writing on the go: Editorial&lt;/h3&gt;
+
+&lt;p&gt;To say that Editorial is &lt;em&gt;just&lt;/em&gt; a writing app would be do it a great disservice; it is a very flexible, customizable text editor with the ability to create workflows and scripting to increase productivity and generally just do some really neat stuff.&lt;/p&gt;
+
+&lt;p&gt;For example, most of the first iteration of this post was written in and published from Editorial using user-created and submitted workflows. Workflows can be as simple as copying all of the text as plain text or HTML, to interacting with APIs and uploading a blog post to GitHub (as was done here).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt;: I recently found a capability in Editorial that I hadn’t realised was there: Sending encrypted emails with an app called &lt;a href=&quot;https://ipgmail.com/&quot;&gt;iPGMail&lt;/a&gt; used to encrypt the email (using a URL Scheme), and then sending the encrypted message to Dispatch to send it. It seems that I didn’t emphasize enough how flexible and powerful Editorial is previously.&lt;/p&gt;
+
+&lt;p&gt;Not only is Editorial useful, it is also very clean, well-crafted, and a pleasure to use.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://omz-software.com/editorial/&quot;&gt;Editorial for iOS&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;notes-and-then-some-drafts-4&quot;&gt;Notes (and then some): Drafts 4&lt;/h3&gt;
+
+&lt;p&gt;Drafts 4 is one of those apps that you may see and say, “$10 for a note-taking app?!”. However, let me say that, much like with Editorial, saying that this is just a note-taking app is doing it a disservice. Drafts 4 is great for jotting down a quick note, no two ways about it. But what do you do with that note once you’ve written it down? With Drafts, you can do any number of things like searching for an address you’ve written down, adding a task in Todoist (or another app with a &lt;strong&gt;URL Scheme&lt;/strong&gt;&lt;sup id=&quot;fnref:schemes&quot;&gt;&lt;a href=&quot;#fn:schemes&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;), or adding links to a read-it-later app; it uses short “actions” to do these things with the text you supply.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://agiletortise.com/drafts/&quot;&gt;Drafts 4&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;swiss-army-knife-pythonista&quot;&gt;Swiss army knife: Pythonista&lt;/h3&gt;
+
+&lt;p&gt;I’ve been waiting to write about Pythonista because I wasn’t sure how to categorize it. What category do you put an application that can do almost anything? So I decided to make one up.&lt;/p&gt;
+
+&lt;p&gt;Pythonista is nominally an IDE (Integrated Development Environment) for Python 2.7. As I’m writing this (on 1 August 2015), Pythonista is in version 1.5 with version 1.6 being actively vetted by the developer and a lively (and friendly) community of contributors. As an IDE, you are able to write and run code written in Python 2.7 in a sort of “sandbox” in the app, natively on iOS. This opens a multitude of potential uses. A few functions that I know of are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;an integrated web browser,&lt;/li&gt;
+  &lt;li&gt;interactions with various sensor in your device,&lt;/li&gt;
+  &lt;li&gt;access to the clipboard,&lt;/li&gt;
+  &lt;li&gt;static website creation (made possible by an integrated HTTP server),&lt;/li&gt;
+  &lt;li&gt;an extremely robust and flexible math library (numpy) and graphing library (matplotlib) that make a very powerful graphing calculator,&lt;/li&gt;
+  &lt;li&gt;ways to interact with APIs, such as that of Dropbox or Philips Hue,&lt;/li&gt;
+  &lt;li&gt;and even access to new modules and scripts from the vast frontier of the Internet.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are just what I’ve encountered; they barely scratch the &lt;em&gt;current&lt;/em&gt; capabilities of the application. Capabilities that are bound to expand in the next iteration.&lt;/p&gt;
+
+&lt;p&gt;I started off using Python to prototype algorithms for my research in computational physics (yes, it’s that good) and have even used it for experimenting in my graduate-level computer science classes. I’ll include some code I wrote &lt;em&gt;entirely&lt;/em&gt; in Pythonista below (part of a proof-of-concept RSA algorithm implementation).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note&lt;/em&gt; this is an implementation of Fermat’s Little Theorem, a test of primality. I can’t really vouch for how well it works, but it worked for my very basic purposes. I just wanted to show how easy writing code is in Pythonista.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def fermat ( prime_length ):
+	if prime_length &amp;lt;= 0:
+		return 0;
+	N = random.randrange(mod_pow(10,prime_length-1), mod_pow(10,prime_length))
+	if (N%2) == 0:
+		N += 1
+	correct = 0
+	for i in xrange(0,20):
+		test_num = random.randint(1,N-1)
+		if mod_pow(test_num,N-1,N) == 1:
+			correct = correct + 1
+	if correct &amp;gt;= 19:
+		return N;
+	else:
+		return 0;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;My personal opinion is that Pythonista is the most useful, most well-crafted application I have ever used or heard of. The developer is an artist as much as he is a gifted programmer. I recommend it to beginning and advanced programmers alike.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt;: I have been on the Pythonista forums more often of late and I have to say that the developer is dedicated to his users; I asked a question on the forum and got a response that same night.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-ultimate-remote-access-utility-bundle-prompt-2-transmit-and-coda&quot;&gt;The ultimate remote access utility bundle: Prompt 2, Transmit, and Coda&lt;/h3&gt;
+
+&lt;p&gt;All of these applications are made by a company called Panic. They make apps of superior quality, so I recommend them as an entity to programmers and especially web designers/programmers.&lt;/p&gt;
+
+&lt;h4 id=&quot;prompt-2&quot;&gt;Prompt 2&lt;/h4&gt;
+
+&lt;p&gt;Prompt 2 is a well-designed and easy to use SSH client. Have RSA keys for password-less authentication? Great. Prompt has you covered with a sort of “keychain” for them. It also has a repository for snippets, commonly used commands or sequences of commands, that can be global or site specific. You can also group your sites into folders to stay organized.&lt;/p&gt;
+
+&lt;h4 id=&quot;transmit&quot;&gt;Transmit&lt;/h4&gt;
+
+&lt;p&gt;Transmit is a remote file access client that can use a variety of protocols. To reiterate my description of Prompt, it is well-designed. It has a local file manager also, so that you can create and upload or download and edit files right on your device.&lt;/p&gt;
+
+&lt;h4 id=&quot;coda-for-ios&quot;&gt;Coda (for iOS)&lt;/h4&gt;
+
+&lt;p&gt;I purchased “Diet Coda” for the iPad about two years ago (the spiritual predecessor to Coda for iOS) and was elated to see it had been updated. Of course, by “updated” I mean completely rewritten and redesigned. The only minor annoyance is that it had been rewritten to encompass the functionality of Prompt 2 and Transmit, so I wish I could have just bought it first. However, all things considered, I have gotten my money’s worth out of all three, so no hard feelings, Panic. Thanks for writing great apps.&lt;/p&gt;
+
+&lt;p&gt;Back to the functionality of the app. Remote sites can be organized into folders, keys can still be added and saved, and snippets can also be saved for use globally and site-specifically. One little detail that I absolutely love is that I can load a custom font and use it in the editor. Which is nice because I really like this font, &lt;a href=&quot;https://github.com/larsenwork/monoid&quot;&gt;Monoid&lt;/a&gt;, on GitHub. As a matter of fact, so much attention to detail has been put into this app that there are lots of neat little bonuses hidden throughout the application.&lt;/p&gt;
+
+&lt;p&gt;This is the link to the &lt;a href=&quot;https://panic.com/&quot;&gt;Panic Inc. website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;further-apps-to-add&quot;&gt;Further apps to add&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Pythonista – check&lt;/li&gt;
+  &lt;li&gt;Coda for iOS – check&lt;/li&gt;
+  &lt;li&gt;Prompt 2 – check&lt;/li&gt;
+  &lt;li&gt;Transmit – check&lt;/li&gt;
+  &lt;li&gt;Workflow&lt;/li&gt;
+  &lt;li&gt;1Password&lt;/li&gt;
+  &lt;li&gt;ProCamera 8&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:schemes&quot;&gt;
+      &lt;p&gt;URL schemes are ways of passing data between applications on iOS. They are basically special URLs that call applications rather than websites (i.e. &lt;code class=&quot;highlighter-rouge&quot;&gt;editorial://&lt;/code&gt; as opposed to &lt;code class=&quot;highlighter-rouge&quot;&gt;https://&lt;/code&gt;). They can be extremely useful for automating certain tasks, like adding an email to a note or converting markdown to HTML in another app. If you are looking for more information on URL schemes, check &lt;a href=&quot;http://handleopenurl.com/about-handleopenurl&quot;&gt;HandleOpenURL&lt;/a&gt; and the &lt;a href=&quot;https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/Introduction/Introduction.html&quot;&gt;Apple Developer page on URL Schemes&lt;/a&gt;. &lt;a href=&quot;#fnref:schemes&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </description>
-        <pubDate>Wed, 11 Feb 2015 08:50:28 +0000</pubDate>
-        <link>/writer//supercharge-your-workflow-with-grunt</link>
-        <guid isPermaLink="true">/writer//supercharge-your-workflow-with-grunt</guid>
+        <pubDate>Fri, 31 Jul 2015 18:15:00 -0400</pubDate>
+        <link>particles.fitzlarolds.net/writer//favorite-apps</link>
+        <guid isPermaLink="true">particles.fitzlarolds.net/writer//favorite-apps</guid>
         
-        
-        <category>coding</category>
-        
-        <category>js</category>
         
       </item>
     
       <item>
-        <title>CSS with Superpowers</title>
-        <description>&lt;p&gt;Sass is completely compatible with all versions of CSS. We take this compatibility seriously, so that you can seamlessly use any available CSS libraries.&lt;/p&gt;
+        <title>Gaming keyboards and productivity</title>
+        <description>&lt;p&gt;It turns out that computers that are good for doing complex mathematics, large calculation, and parallel processing, are also good for gaming. Interestingly enough, gaming keyboards are also good for things other than gaming. They happen to be, for the most part, well-crafted, mechanical, and possess macro keys that can be used in many ways. In this post, I would like to give an anecdotal look at how a gaming keyboard can be repurposed for productivity, particularly with regard to programming.&lt;/p&gt;
 
-&lt;p&gt;Sass boasts more features and abilities than any other CSS extension language out there. The Sass Core Team has worked endlessly to not only keep up, but stay ahead.&lt;/p&gt;
+&lt;h2 id=&quot;macro-keys-shortcuts-galore&quot;&gt;Macro keys: shortcuts galore&lt;/h2&gt;
 
-&lt;h2 id=&quot;mature&quot;&gt;Mature&lt;/h2&gt;
-&lt;p&gt;Sass has been actively supported for about 8 years by its loving Core&lt;/p&gt;
+&lt;p&gt;I have a Logitech G910 “Orion Spark”&lt;sup id=&quot;fnref:Orion&quot;&gt;&lt;a href=&quot;#fn:Orion&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; with a numerical pad and also nine programmable macro keys &lt;sup id=&quot;fnref:keys&quot;&gt;&lt;a href=&quot;#fn:keys&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. With Logitech’s Gaming Software, you can assign these macro keys to a regular old single key, a many-key shortcut, a macro, or even to enter a block of text. Basically, you can have those keys do &lt;em&gt;anything&lt;/em&gt; you can come up with.&lt;/p&gt;
 
-&lt;h2 id=&quot;team&quot;&gt;Team&lt;/h2&gt;
-&lt;p&gt;Over and over again, the industry is choosing Sass as the premier CSS extension language.&lt;/p&gt;
+&lt;figure&gt; &lt;a href=&quot;http://lmarkley.github.io/images/asset.tif&quot;&gt;&lt;img src=&quot;http://lmarkley.github.io/images/asset.tif&quot; /&gt;&lt;/a&gt;The Logitech G910 &quot;Orion Spark&quot; as I have it set up now. The keys light up as I press them!&lt;/figure&gt;
 
-&lt;h2 id=&quot;large-community&quot;&gt;Large Community&lt;/h2&gt;
-&lt;p&gt;Sass is actively supported and developed by a consortium of several tech companies and hundreds of developers.&lt;/p&gt;
+&lt;p&gt;For example, I use one such macro key to enter my signature for emails. This may not seem very useful at first, but if you write a lot of emails for different purposes, it’s nice to have a way to add a signature when needed sporadically. I have another couple of macros that launch my Cygwin terminal (currently using the Babun distribution from an &lt;a href=&quot;http://particles.fitzlarolds.net/Nmap-and-other-things/&quot;&gt;earlier post&lt;/a&gt;) and send commands to connect to an SSH session on a remote machine. This reduces my clicking and typing to a single keystroke. These are some &lt;em&gt;simple&lt;/em&gt; examples of things you can do with macros; I am finding new uses every time I log in to my computer.&lt;/p&gt;
 
-&lt;h2 id=&quot;frameworks&quot;&gt;Frameworks&lt;/h2&gt;
-&lt;p&gt;There are endless number of frameworks built with Sass. Compass, Bourbon, and Susy just to name a few.&lt;/p&gt;
+&lt;h3 id=&quot;keyboard-shortcuts-with-autohotkey&quot;&gt;Keyboard shortcuts with AutoHotkey&lt;/h3&gt;
 
-&lt;p&gt;Dreamcatcher cold-pressed American Apparel, post-ironic Carles Shoreditch craft beer Banksy PBR retro distillery before they sold out freegan asymmetrical kogi. Food truck Schlitz direct trade, deep v ethical yr sriracha mumblecore freegan. Tattooed occupy pork belly, letterpress typewriter cold-pressed viral swag farm-to-table flexitarian. +1 hashtag put a bird on it authentic. 3 wolf moon locavore Vice, normcore actually meggings leggings cornhole brunch. Four loko vinyl trust fund, Intelligentsia wolf Bushwick lo-fi sriracha. Deep v vegan forage selvage.&lt;/p&gt;
+&lt;p&gt;Many programs come with multi-key, system-wide shortcuts, and many don’t. A way around this is to use &lt;a href=&quot;http://ahkscript.org/&quot;&gt;AutoHotkey&lt;/a&gt; to set up your own keyboard shortcut for any program you want &lt;sup id=&quot;fnref:ahk&quot;&gt;&lt;a href=&quot;#fn:ahk&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. To be honest, I haven’t even begun to scratch the surface of what AutoHotkey is capable of. You can do anything from remapping keys to increase productivity, to launching GUIs to run much more complicated applications. I have a shortcut that just launches my favorite terminal emulator. I also have a shortcut to change my wallpaper to a random image in a folder I’ve designated. The others that I have made work in conjunction with the Logitech Gaming Software to enter more complicated streams of text, even prompting for user input occasionally.&lt;/p&gt;
+
+&lt;h3 id=&quot;other-remarks&quot;&gt;Other remarks&lt;/h3&gt;
+
+&lt;p&gt;I recommend having some macros or shortcuts to anyone that does a lot of repetitive tasks on their computer and want to optimize their workflow. I know that the above isn’t much of an introduction, but as I learn more, I will add more to this post (so we can learn together!).&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:Orion&quot;&gt;
+      &lt;p&gt;This is a really nice keyboard. At first I thought it looked a little excessive; the little stand for your smart phone seemed like a silly gimmick (and still does). However, the ease of use of the software and the build quality outweighed my initial trepidation. &lt;a href=&quot;#fnref:Orion&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:keys&quot;&gt;
+      &lt;p&gt;You can have three preset profiles on the keyboard. So, if you utilize all of the available shortcut power, you have access to 27 macros. &lt;a href=&quot;#fnref:keys&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:ahk&quot;&gt;
+      &lt;p&gt;AutoHotkey is an extremely robust tool. It is far from limited to just opening programs. You can script it to do just about anything and assign that script to a keyboard shortcut. &lt;a href=&quot;#fnref:ahk&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </description>
-        <pubDate>Wed, 11 Feb 2015 08:50:28 +0000</pubDate>
-        <link>/writer//css-with-superpowers</link>
-        <guid isPermaLink="true">/writer//css-with-superpowers</guid>
+        <pubDate>Wed, 29 Jul 2015 13:30:00 -0400</pubDate>
+        <link>particles.fitzlarolds.net/writer//gaming-keyboards</link>
+        <guid isPermaLink="true">particles.fitzlarolds.net/writer//gaming-keyboards</guid>
         
-        
-        <category>coding</category>
-        
-        <category>css</category>
         
       </item>
     
       <item>
-        <title>You Dont Have To Be Great To Get Started</title>
-        <description>&lt;p&gt;It was a cold December morning, as I sat out on my porch I decided today was the day.&lt;/p&gt;
+        <title>A &#39;Bourne again&#39; shell scripter</title>
+        <description>&lt;p&gt;I’ve been playing around with bash (the Bourne Again SHell) scripts for about two years now. At first, it was a passing necessity to automate programs for the research I was working on. Then I realized the tremendous power that lie within scripting in bash. I think about it like this: You are essentially giving directions &lt;em&gt;directly&lt;/em&gt; to the “brain” of your computer. All that raw power at your fingertips without having to go through someone else’s “black box” of a user interface, that does god-knows-what behind the scenes; it is exhilarating (to a nerd like me).&lt;/p&gt;
 
-&lt;p&gt;Dreamcatcher cold-pressed American Apparel, post-ironic Carles Shoreditch craft beer Banksy PBR retro distillery before they sold out freegan asymmetrical kogi. Food truck Schlitz direct trade, deep v ethical yr sriracha mumblecore freegan. Tattooed occupy pork belly, letterpress typewriter cold-pressed viral swag farm-to-table flexitarian. +1 hashtag put a bird on it authentic. 3 wolf moon locavore Vice, normcore actually meggings leggings cornhole brunch. Four loko vinyl trust fund, Intelligentsia wolf Bushwick lo-fi sriracha. Deep v vegan forage selvage.&lt;/p&gt;
+&lt;p&gt;That is not to say that you can’t &lt;strong&gt;severely&lt;/strong&gt; screw up everything on your computer with this stuff (I have on many occasions done just that), but if you do your homework and experiment a little you’re usually safe.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//writer/img/post-assets/view.jpg&quot; alt=&quot;view&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;ssh-scp--sftp&quot;&gt;SSH, SCP, &amp;amp; SFTP&lt;/h3&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil eum cum quas! Consectetur aliquam molestias quos voluptatum recusandae accusantium eaque sed architecto esse. Ut obcaecati, porro numquam sed. Odio.&lt;/p&gt;
+&lt;p&gt;I do a lot of work remotely. Needless to say, I don’t want everyone in the world to be able to pick what I’m doing out of the air and have access to any personal data. So I employ the use of SSL (Secure Socket Layer) encryption in the form of SSH, SCP, and SFTP; which are Secure SHell, Secure CoPy, and Secure File Transfer Protocol, respectively. You may have heard of SSL, it is responsible for encrypting anything from secure chats to bank transfers, and with the exception of a few problems (like Heartbleed) it has worked well (especially for being open-source and staffed by mostly volunteers as I understand it). I won’t go into the details of exactly how it works (I don’t understand it fully, so I wouldn’t feel comfortable), but I might throw in an example or two later on. Of the three, I use SSH the most to run remote commands to do work while I’m away (and even to tunnel a VNC session if I have enough bandwidth).&lt;/p&gt;
 
-&lt;p&gt;Dreamcatcher cold-pressed American Apparel, post-ironic Carles Shoreditch craft beer Banksy PBR retro distillery before they sold out freegan asymmetrical kogi. Food truck Schlitz direct trade, deep v ethical yr sriracha mumblecore freegan. Tattooed occupy pork belly, letterpress typewriter cold-pressed viral swag farm-to-table flexitarian. +1 hashtag put a bird on it authentic. 3 wolf moon locavore Vice, normcore actually meggings leggings cornhole brunch. Four loko vinyl trust fund, Intelligentsia wolf Bushwick lo-fi sriracha. Deep v vegan forage selvage.&lt;/p&gt;
+&lt;h4 id=&quot;ssh&quot;&gt;SSH&lt;/h4&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam provident accusamus vero autem culpa illum quo enim maiores eius error, sapiente inventore cum hic earum. Libero porro quisquam harum.&lt;/p&gt;
+&lt;p&gt;SSH has pretty simple syntax for the most basic applications. For example, if I want to log on to a server called ‘myserver’ with the username ‘bob’, on the port ‘2468’ (the default port for SSH is 22, for future reference), I would enter the following in the terminal:&lt;/p&gt;
 
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh -p 2468 bob@myserver
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then SSH would prompt me for the password for ‘bob’, unless I have an SSH key &lt;sup id=&quot;fnref:keys&quot;&gt;&lt;a href=&quot;#fn:keys&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;Another cool thing possible with SSH is &lt;em&gt;tunneling&lt;/em&gt;. It might sound a bit nefarious, but it’s used for all sorts of practical things from creating a “poor man’s VPN”, to circumventing restrictive firewalls, or even just being able to get desktop Gmail at work. There are many types of tunnels, but the one I will share here (without telling you how to do everything, that may require a bit of searching) is for a &lt;em&gt;dynamic port forwarding tunnel&lt;/em&gt;. In other words, it forwards all of the traffic on your computer through a remote server to the rest of the Internet. This can be done with the following command:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh -D &amp;lt;local port&amp;gt; &amp;lt;user&amp;gt;@&amp;lt;server&amp;gt; -N
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;D&lt;/code&gt; is for dynamic and it takes a port on your local computer as an argument, the &lt;code class=&quot;highlighter-rouge&quot;&gt;N&lt;/code&gt; is so you don’t enter what is called an interactive session (i.e. you can’t send commands). It always makes things a little easier to use password-less authentication, but that lies beyond the scope of this post.&lt;/p&gt;
+
+&lt;h4 id=&quot;scp&quot;&gt;SCP&lt;/h4&gt;
+
+&lt;p&gt;The Secure CoPy (SCP) tool can be very useful if you need to send a file to or get a file from somewhere that you don’t have physical access to (and possibly don’t want to use an SFTP or FTP client, etc.). Again, the syntax is pretty simple for basic stuff. For example, let’s say I have the same computer as above and I want to send a shell script (‘script.sh’) in my home directory (or in the second case, get a shell script &lt;em&gt;from&lt;/em&gt; the home directory of ‘myserver’), then I would enter these commands in the terminal:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;scp -P 2468 shell.sh bob@myserver:~/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;or to fetch the same file:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;scp -P 2468 bob@myserver:~/shell.sh ~/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The same thing goes here; you’ll be prompted for a password unless you have an SSH key.&lt;/p&gt;
+
+&lt;h3 id=&quot;network-tools&quot;&gt;Network tools&lt;/h3&gt;
+
+&lt;p&gt;There are some really nice network tools available for bash. I’ll go over a few (there are &lt;em&gt;tons&lt;/em&gt;) here and give a brief overview of some things that they can do.&lt;/p&gt;
+
+&lt;h4 id=&quot;ping&quot;&gt;Ping&lt;/h4&gt;
+
+&lt;p&gt;Ping is probably the best known of all of the network tools (possibly even command line tools) in bash. It has extensive applications, but most commonly I use it to see how well one computer (a client) is communicating with another (a host). For example, if I wanted to see if my computer was communicating well with my router (located at, say, 10.0.0.1 which is an IP address) I would enter&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ping 10.0.0.1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;That’s it! Then it will send some information to the host and see how much it gets back. The more it gets back, the better. Again, that’s not all, but it’s enough to get you going!&lt;/p&gt;
+
+&lt;h4 id=&quot;arp&quot;&gt;Arp&lt;/h4&gt;
+
+&lt;p&gt;ARP stands for “Address Resolution Protocol”. It is how computers know where one another are, and how to get from point A to point B (so to speak) in a network. The &lt;code class=&quot;highlighter-rouge&quot;&gt;arp -a&lt;/code&gt; returns the ARP table for the network you are connected to, with all of the live hosts (network devices that are connected and on) and their IP and MAC addresses. This is useful information if you want to know how many devices are connected to your network and “where” they are on it.&lt;/p&gt;
+
+&lt;h4 id=&quot;nmap&quot;&gt;Nmap&lt;/h4&gt;
+
+&lt;p&gt;Nmap doesn’t come stock with bash; it is third party software but it is one of my favorites so I’m mentioning it. Before I go on, the obligatory disclaimer: &lt;strong&gt;DO NOT USE NMAP ANYWHERE YOU SHOULDN’T&lt;/strong&gt; and &lt;strong&gt;IF YOU AREN’T SURE YOU ARE ALLOWED TO USE IT, YOU PROBABLY AREN’T&lt;/strong&gt;. Now that we’ve that out of the way, Nmap is an incredibly powerful and versatile information gathering tool. It scans the nebulous entities known as ports on a computer; can gather information about the operating system and services available from a computer; and various other features that are rather esoteric. I personally use it to look for my computer when its IP address changes on my local network and I’m not there to check what it might be. There is a GUI version of Nmap called Zenmap that is rather nifty as well. You can find information about Nmap and Zenmap on &lt;a href=&quot;https://nmap.org&quot;&gt;the official Nmap site&lt;/a&gt;&lt;sup id=&quot;fnref:nmap&quot;&gt;&lt;a href=&quot;#fn:nmap&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;file-and-text-tools&quot;&gt;File and text tools&lt;/h3&gt;
+
+&lt;h4 id=&quot;vi-or-vim&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;vi&lt;/code&gt; (or Vim)&lt;/h4&gt;
+
+&lt;p&gt;Possibly the most powerful tool at the fingertips of any computer software tinkerer is a good text editor. Luckily, &lt;code class=&quot;highlighter-rouge&quot;&gt;vi&lt;/code&gt; is a &lt;em&gt;great&lt;/em&gt; text editor, often lauded as &lt;em&gt;the&lt;/em&gt; text editor. I have to admit, I’ve gotten a bit rusty in my Vim skills. I’ve been spoiled with Sublime Text for some time now. Though having a big, fancy text editor is great, what happens when you don’t have those luxuries like a mouse or a user interface? Vim is a veritable (and venerable) Swiss army knife; you &lt;em&gt;need&lt;/em&gt; to keep it in your pocket, especially out in the wild. To get back to the practical point, &lt;code class=&quot;highlighter-rouge&quot;&gt;vi&lt;/code&gt; is completely text-based and uses keyboard shortcuts to keep your hands on the keyboard. While it is easy to pick up the basics, becoming proficient can be tough (but it’s worth it).&lt;/p&gt;
+
+&lt;p&gt;I am actually editing this section of this post in Vim now. I have to say, even being rusty, the shortcuts and syntax highlighting are still incredible and fast.&lt;/p&gt;
+
+&lt;h3 id=&quot;other-tools&quot;&gt;Other tools&lt;/h3&gt;
+
+&lt;h4 id=&quot;tmux&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tmux&lt;/code&gt;&lt;/h4&gt;
+
+&lt;p&gt;It is my understanding that &lt;code class=&quot;highlighter-rouge&quot;&gt;tmux&lt;/code&gt; is short for ‘terminal multiplexer’, which means that you can have multiple instances of shell in the same terminal session in the form of panes or windows.&lt;/p&gt;
+
+&lt;figure&gt; &lt;a href=&quot;http://lmarkley.github.io/images/tmux.png&quot;&gt;&lt;img src=&quot;http://lmarkley.github.io/images/tmux.png&quot; /&gt;&lt;/a&gt; A screenshot of writing this post in Vim using tmux panes.&lt;/figure&gt;
+
+&lt;h3 id=&quot;other-cool-stuff&quot;&gt;Other cool stuff&lt;/h3&gt;
+
+&lt;h4 id=&quot;babun&quot;&gt;Babun&lt;/h4&gt;
+
+&lt;p&gt;I discovered &lt;a href=&quot;http://babun.github.io&quot;&gt;Babun&lt;/a&gt; a few days ago after hearing it on a podcast called “Programming Throwdown” which, by the way, is wonderful. You should listen to it. It’s funny &lt;em&gt;and&lt;/em&gt; informative, though I will warn you that the nominal topic only gets about 15-20 minutes toward the end of the show in my experience &lt;sup id=&quot;fnref:progthrow&quot;&gt;&lt;a href=&quot;#fn:progthrow&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. Babun is an implementation of Cygwin and a lot more; it has many plugins and add-ons and one thing that Cygwin lacks out-of-the-box: an included package manager. It’s easy to setup and, as the home page states, doesn’t interfere with previous Cygwin installations (I can vouch for that, it didn’t mess with mine at all). If you are a Windows user but miss a good (sorry Microsoft…) command line interface, try Babun.&lt;/p&gt;
+
+&lt;h4 id=&quot;atom&quot;&gt;Atom&lt;/h4&gt;
+
+&lt;p&gt;Atom is “A hackable text editor for the 21st Century” as the website states. It is free; open-source; and has a plethora of themes, packages, and add-ons for increased utility. I started using Atom well before its 1.0 date, but found it difficult to work with on Windows. This has since changed; it is as simple to install and use as double clicking the installer and starting it up. It is also cross-platform, which is very nice for a person who uses Linux, OS X, and Windows on a rotating basis (occasionally two simultaneously, which can get really confusing) like me. It is &lt;em&gt;very&lt;/em&gt; customizable and chic, and I recommend giving it a shot if you like free, open-source, awesome stuff &lt;sup id=&quot;fnref:atom&quot;&gt;&lt;a href=&quot;#fn:atom&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jlevy/the-art-of-command-line&quot;&gt;The Art of Command Line&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;I recently came upon this repository and I was rendered speachless by the wealth of useful information on this page. I recommend checking it out.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hyperpolyglot.org/unix-shells&quot;&gt;Hyperpolyglot: Unix Shells&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;I also recently found this gem. It is useful for programming in general, but I’ve linked to the Unix Shells page here.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To be continued….&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:keys&quot;&gt;
+      &lt;p&gt;I like to think of SSH keys this way (though it is a gross oversimplification): It’s like having a security system that you have the master code for, but there are other codes for other people (computers) that you ‘trust’ (or have authorized) so that they can get in as well. Each of these people (computers) has a unique code (signature) so that you know it is them and not someone else. &lt;a href=&quot;#fnref:keys&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:nmap&quot;&gt;
+      &lt;p&gt;Nmap even has a Python module: &lt;code class=&quot;highlighter-rouge&quot;&gt;python-nmap&lt;/code&gt;. &lt;a href=&quot;#fnref:nmap&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:progthrow&quot;&gt;
+      &lt;p&gt;&lt;em&gt;Programming Throwdown&lt;/em&gt; is hosted by Jason Gauci and Patrick Wheeler. It is my favorite podcast for several reasons, but mainly because the it is always informative and the hosts have real charisma (albeit a nerdy manifestation of it). Here is a link to the Google+ page if you would like more information: https://plus.google.com/communities/103949530542621693799 &lt;a href=&quot;#fnref:progthrow&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:atom&quot;&gt;
+      &lt;p&gt;More information can be found on the &lt;a href=&quot;http://atom.io&quot;&gt;Atom homepage&lt;/a&gt;, as well as the download links. &lt;a href=&quot;#fnref:atom&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </description>
-        <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
-        <link>/writer//you-dont-have-to-be-great-to-get-started</link>
-        <guid isPermaLink="true">/writer//you-dont-have-to-be-great-to-get-started</guid>
+        <pubDate>Sat, 11 Jul 2015 17:14:00 -0400</pubDate>
+        <link>particles.fitzlarolds.net/writer//Nmap-and-other-things</link>
+        <guid isPermaLink="true">particles.fitzlarolds.net/writer//Nmap-and-other-things</guid>
         
-        
-        <category>motivation</category>
-        
-        <category>leadership</category>
-        
-        <category>journey</category>
         
       </item>
     
       <item>
-        <title>Why React JS Will Change the World</title>
-        <description>&lt;p&gt;React components implement a &lt;code&gt;render()&lt;/code&gt; method that takes input data and returns what to display. This example uses an XML-like syntax called JSX. Input data that is passed into the component can be accessed by &lt;code&gt;render()&lt;/code&gt; via &lt;code&gt;this.props&lt;/code&gt;.&lt;/p&gt;
+        <title>&#39;ARK: Survival Evolved&#39; initial impressions</title>
+        <description>&lt;p&gt;I was perusing the selection on Steam a couple of days ago and ran across something that intrigued me: a game survival game with dinosaurs. I should preface the following with the fact that I &lt;em&gt;do not&lt;/em&gt; generally like survival games, &lt;em&gt;do not&lt;/em&gt; generally like games where humans and dinosaurs coexist (anything in which they coexist, actually), and am a bit wary of “Early Access” titles (I have been disappointed in the past). However, after watching the (rather intense) trailer &lt;sup id=&quot;fnref:trailer&quot;&gt;&lt;a href=&quot;#fn:trailer&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; for &lt;em&gt;ARK: Survival Evolved&lt;/em&gt;, I took a chance; there was bait dangled in front of me and I bit.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;build/react.js&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;build/JSXTransformer.js&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;example&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/jsx&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/h1&amp;gt;,&lt;/span&gt;
-        &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;example&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;the-premise-and-basis-of-gameplay&quot;&gt;The premise and basis of gameplay&lt;/h3&gt;
 
-&lt;h2 id=&quot;want-commonjs&quot;&gt;Want CommonJS?&lt;/h2&gt;
-&lt;p&gt;If you want to use React with browserify, webpack, or another CommonJS-compatible module system, just use the react npm package. In addition, the jsx build tool can be integrated into most packaging systems (not just CommonJS) quite easily.&lt;/p&gt;
+&lt;p&gt;From what I can glean from the description of the game on Steam and what I have experienced thus far, the premise is that you are a human (male or female) that wakes up on a mysterious island with nothing but your skin and a strange, alien implant in your left arm. As you come to, you can look around and see that this island is lush and rich in resources, but also rich in something else: dinosaurs (and other interesting fauna &lt;sup id=&quot;fnref:dodo&quot;&gt;&lt;a href=&quot;#fn:dodo&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;). The player must negotiate gathering resources, finding shelter, warmth, shade, water, food, and even relieving one’s self from time to time (complete with a humorous sound effect).&lt;/p&gt;
 
-&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h2&gt;
-&lt;p&gt;Check out the tutorial and the other examples in the starter kit’s examples directory to learn more.&lt;/p&gt;
+&lt;p&gt;There are RPG elements in the game; for example, there are “Engram Points” that are used to obtain new “blueprints” for various crafted items that can be made once learned. There is also an upgrade system in which you can augment your health, stamina, water capacity, etc. I found this system to be simple to learn and intuitive to manage. If my character is thirsty, I find water; hungry, (towards the beginning) I eat some berries &lt;sup id=&quot;fnref:tutorial&quot;&gt;&lt;a href=&quot;#fn:tutorial&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;We also have a wiki where the community contributes with workflows, UI-components, routing, data management etc.&lt;/p&gt;
+&lt;h3 id=&quot;graphics&quot;&gt;Graphics&lt;/h3&gt;
 
-&lt;p&gt;Good luck, and welcome!&lt;/p&gt;
+&lt;p&gt;The largest complaint I have read about this game is the low framerate on many machines. I have experienced this phenomenon as well, but most of the time it is barely noticeable on my laptop.&lt;/p&gt;
+
+&lt;p&gt;That being said, the landscape, creatures, water, and motion are all something to behold and are rendered beautifully. I first played on a public server and the graphics were phenomenal. Since then I have played locally on my laptop (which is no slouch) and the game is still rendered beautifully, though not quite as well as on the server, as expected. Below are some screenshots from the server and my laptop.&lt;/p&gt;
+
+&lt;figure&gt; &lt;a href=&quot;http://drops.fitzlarolds.net/1bpdy+&quot;&gt;&lt;img src=&quot;http://drops.fitzlarolds.net/1bpdy+&quot; /&gt;&lt;/a&gt; &lt;figcaption&gt;In game graphics while playing on the public server.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure&gt; &lt;a href=&quot;http://drops.fitzlarolds.net/1irSC+&quot;&gt;&lt;img src=&quot;http://drops.fitzlarolds.net/1irSC+&quot; /&gt;&lt;/a&gt; &lt;figcaption&gt;In game graphics while playing locally on my laptop.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;summation&quot;&gt;Summation&lt;/h3&gt;
+
+&lt;p&gt;As stated in the title, this is very much a statement of my initial impressions, which can be summed up like this: “Wow.” I think that if this is how the game is in “Early Access”, I can’t wait to see what it’s like as a full release.&lt;/p&gt;
+
+&lt;p&gt;I would say that if you’ve got the time and an extra thirty or so dollars, get this game.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:trailer&quot;&gt;
+      &lt;p&gt;https://www.youtube.com/watch?v=FW9vsrPWujI &lt;a href=&quot;#fnref:trailer&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:dodo&quot;&gt;
+      &lt;p&gt;Not the least of which is the amusing Dodo. The game has, I believe, about 40 species of creatures (some hostile, some not) with more planned. &lt;a href=&quot;#fnref:dodo&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:tutorial&quot;&gt;
+      &lt;p&gt;There is no real tutorial element to the game; you are thrown in with the controls and common sense. What might you actually do to survive in this environment? There are item descriptions which are helpful, but don’t ruin any surprises. &lt;a href=&quot;#fnref:tutorial&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </description>
-        <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
-        <link>/writer//why-react-js-will-change-the-world</link>
-        <guid isPermaLink="true">/writer//why-react-js-will-change-the-world</guid>
+        <pubDate>Sat, 06 Jun 2015 12:30:00 -0400</pubDate>
+        <link>particles.fitzlarolds.net/writer//ARK</link>
+        <guid isPermaLink="true">particles.fitzlarolds.net/writer//ARK</guid>
         
-        
-        <category>coding</category>
-        
-        <category>js</category>
         
       </item>
     
       <item>
-        <title>Stop Thinking And Start Doing</title>
-        <description>&lt;p&gt;Get out of your head. Every good decision starts with a momment of action. What are you going to do today!&lt;/p&gt;
+        <title>The Witcher 3: Wild Hunt and the GeForce GTX Titan X: A brief overview</title>
+        <description>&lt;p&gt;I recently had the chance to try out the GeForce GTX Titan X. The Titan X is NVIDIA’s new high-end consumer card; not “pro-sumer”, just consumer. The reason behind this is that the Titan X, unlike its nominal forebears, is optimized for 32-bit floating point arithmetic, not 64-bit and thus is amazing at graphics, but not ideal for scientific or professional computing &lt;em&gt;technically&lt;/em&gt;. Despite its 64-bit limitations, it has 8 billion transistors on its 28 nm lithography, with the second-generation Maxwell architecture &lt;sup id=&quot;fnref:transistors&quot;&gt;&lt;a href=&quot;#fn:transistors&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; The card comes with a wonderfully large amount of VRAM: 12 GB, to be exact. This makes it great for handling the large buffer sizes associated with 4K gaming.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in finibus diam, sit amet sollicitudin dui. Praesent erat dui, mattis sed elementum non, molestie et ipsum. Quisque fringilla vitae dolor a lacinia. Integer aliquam arcu non tortor egestas volutpat. Proin vitae pretium purus, a rhoncus sapien. Nam posuere rutrum lorem, eu sagittis ante scelerisque pretium. Morbi fermentum mauris a elit lacinia venenatis. Nunc ut iaculis nunc, sed faucibus nulla. Nunc at massa ut mi varius venenatis et id nibh. Sed molestie nibh sed risus mattis elementum. Ut iaculis, dolor sed consequat efficitur, nisi risus scelerisque dui, at bibendum velit nisi quis risus. Nunc gravida leo ut arcu tempus, et iaculis ex ullamcorper. Maecenas eget dolor diam. Suspendisse dapibus pulvinar tempus.&lt;/p&gt;
+&lt;p&gt;I don’t want to talk about the specifications of the card too much; there are plenty of articles on that, as well as NVIDIA’s own page for the card &lt;a href=&quot;http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-titan-x&quot;&gt;here&lt;/a&gt;. However, I will say (without suggesting that you do this and stating that you assume all risk associated with doing so should you choose to) that the Titan X overclocks very well &lt;sup id=&quot;fnref:oc&quot;&gt;&lt;a href=&quot;#fn:oc&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//writer/img/post-assets/walk.jpg&quot; alt=&quot;walk&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;What I would like to talk about is the Titan X’s performance with regard to one (highly anticipated) game specifically: &lt;em&gt;The Witcher 3: Wild Hunt&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//writer/img/post-assets/water.jpg&quot; alt=&quot;water&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;graphics&quot;&gt;Graphics&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;//writer/img/post-assets/woods.jpg&quot; alt=&quot;woods&quot; /&gt;&lt;/p&gt;
+&lt;figure&gt; &lt;a href=&quot;http://drops.fitzlarolds.net/17mDk+&quot;&gt;&lt;img src=&quot;http://drops.fitzlarolds.net/17mDk+&quot; /&gt;&lt;/a&gt; &lt;figcaption&gt;Geralt in full 1440p glory.&lt;/figcaption&gt;&lt;/figure&gt;
 
-&lt;p&gt;Vestibulum semper dui risus, ut vestibulum ex vestibulum in. Duis vel placerat augue. Morbi dapibus turpis nisi, eleifend hendrerit ligula congue non. Vestibulum felis velit, vulputate at metus ac, ullamcorper pharetra sapien. Praesent eget nibh scelerisque, scelerisque velit semper, ultrices velit. Nunc luctus quam ut condimentum sodales. Quisque eget eleifend nibh. Donec sit amet metus massa.&lt;/p&gt;
+&lt;figure&gt;&lt;a href=&quot;http://drops.fitzlarolds.net/16knT+&quot;&gt; &lt;img src=&quot;http://drops.fitzlarolds.net/16knT+&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt; Geralt and Vesemir in 1080p with Ultra settings.&lt;/figcaption&gt;&lt;/figure&gt;
 
-&lt;p&gt;Quisque sagittis arcu quis mauris consectetur tempus. Etiam id erat pretium, rutrum quam ut, commodo lacus. Proin vitae condimentum odio. Morbi facilisis ligula vitae auctor pretium. Fusce lorem lectus, ultrices sit amet neque ut, condimentum bibendum libero. Mauris cursus neque eros, vel consectetur quam mollis nec. Mauris quis est nec elit euismod condimentum. Vestibulum imperdiet suscipit elit et scelerisque. Vivamus mollis sagittis ante.&lt;/p&gt;
+&lt;p&gt;The Witcher 3 is a graphically intense game &lt;sup id=&quot;fnref:witcher2&quot;&gt;&lt;a href=&quot;#fn:witcher2&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; and utilizes NVIDIA’s new HairWorks technology which (apparently) makes hair on all of the characters, monsters, etc. more realistic. While I don’t know the inner workings of the technology, I understand that it creates a texture for each strand of hair and seems to dynamically calculate each strand’s behavior. The effect is &lt;em&gt;very&lt;/em&gt; visible in game.&lt;/p&gt;
 
-&lt;p&gt;Aenean commodo, massa quis mattis lacinia, mi ipsum vestibulum nisi, ut tincidunt massa erat quis neque. Aliquam volutpat eu ligula a tincidunt. Suspendisse imperdiet, lacus vitae pretium imperdiet, nisi elit efficitur felis, id ullamcorper nulla dolor ac massa. In rutrum eget nisi et maximus. Nam consequat libero et feugiat lobortis. Donec sit amet felis faucibus, egestas enim id, condimentum justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed aliquam, nisl vel volutpat semper, mi lacus tempus ante, hendrerit consequat massa lorem at lacus. Phasellus vel felis scelerisque, consectetur arcu ac, euismod massa.&lt;/p&gt;
+&lt;p&gt;I have been playing The Witcher 3 a bit 1440p (for reasons I will discuss further on) and I don’t see any framerate drops, strobing, or ghosting &lt;sup id=&quot;fnref:pc&quot;&gt;&lt;a href=&quot;#fn:pc&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;. However, I mainly play in 1080p (the biggest screen I could find is this resolution) with the settings maxed out. Again, I see no strobing, ghosting, or framerate drops, even in crowded areas or during battles.&lt;/p&gt;
 
+&lt;h3 id=&quot;gameplay&quot;&gt;Gameplay&lt;/h3&gt;
+
+&lt;p&gt;Full disclosure: I have only played The Witcher 3 for about 4 hours (my day job has been running into my nights and weekends). Even with this relatively small amount of time, I have still seen what I think is enough to judge some of the gameplay.&lt;/p&gt;
+
+&lt;p&gt;First, the controls: they seem much more intuitive on the PC than in The Witcher 2, with the exception of the dodging being bound by default to the ALT key; this makes dodging difficult without hand gymnastics. As a result of this simple defect, I have been playing with a controller.&lt;/p&gt;
+
+&lt;p&gt;Next, the interface is awesome in that it keeps out of your way as much as possible, but is there when you need it. Along with the interface, the crafting scheme is nice; you have many “recipes” to start with, but you can purchase or find more as the game progresses.&lt;/p&gt;
+
+&lt;p&gt;Last but not least is combat. Combat in The Witcher 3 is intuitive, but not too easy. There is a certain amount of strategy involved, from researching different enemies’ weaknesses in the game’s bestiary, to pre-combat potion drinking. The beauty of Geralt is the fact that he’s not a tank and this is not a “hack’n’slash” where you can just run in and take on five enemies at once. The combat requires thought, planning, and not a little bit of dexterity and finesse.&lt;/p&gt;
+
+&lt;h3 id=&quot;story&quot;&gt;Story&lt;/h3&gt;
+
+&lt;p&gt;As previously stated, I have only delved into Wild Hunt for about four hours. However, as someone who notoriously loses interest in most things &lt;em&gt;very&lt;/em&gt; quickly, the story pulled me right in and I can’t wait to get done writing this post [^breakfast] so that I can continue playing.&lt;/p&gt;
+
+&lt;p&gt;Geralt makes a wonderful main character; he is morally ambiguous enough to not sway your decisions in the game, but is also human enough to allow one to empathize with him. His gravelly voice, razer-sharp wit, and sarcasm make him likable. His status as an outsider (a pariah even) make him mysterious and intriguing.&lt;/p&gt;
+
+&lt;p&gt;The dialog in Wild Hunt are spectacular, and show a literary flair and variation that (in my humble opinion) are often lacking in video games. As a result, the level of immersion is perfect.&lt;/p&gt;
+
+&lt;h3 id=&quot;summation&quot;&gt;Summation&lt;/h3&gt;
+
+&lt;p&gt;I am by no means a seasoned game reviewer (which I am sure is readily apparent for anyone reading this), but I have to say that if you enjoy an engrossing story, well-paced gameplay, and beautiful (and not unattainable) graphics, you should just buy this game.&lt;/p&gt;
+
+&lt;p&gt;Buy it now.&lt;/p&gt;
+
+&lt;p&gt;Seriously.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:transistors&quot;&gt;
+      &lt;p&gt;This compared to the NVIDIA GeForce GTX 980, which has a transistor count of (I believe) 5.4 billion. &lt;a href=&quot;#fnref:transistors&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:oc&quot;&gt;
+      &lt;p&gt;On 3DMark’s Firestrike test, my score jumped over 2000 points with just a little bit of overclocking. &lt;a href=&quot;#fnref:oc&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:witcher2&quot;&gt;
+      &lt;p&gt;Perhaps not as ahead of its time as The Witcher 2 which, released in 2011, still makes graphics cards sweat at high settings. &lt;a href=&quot;#fnref:witcher2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:pc&quot;&gt;
+      &lt;p&gt;I tested the game on a computer with an Intel i7-4790K @ 4.4 GHz, 32 GB of RAM, and a NVIDIA GeForce GTX Titan X. &lt;a href=&quot;#fnref:pc&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </description>
-        <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
-        <link>/writer//stop-thinking-and-start-doing</link>
-        <guid isPermaLink="true">/writer//stop-thinking-and-start-doing</guid>
+        <pubDate>Fri, 29 May 2015 07:37:51 -0400</pubDate>
+        <link>particles.fitzlarolds.net/writer//the-witcher-3-titan-X</link>
+        <guid isPermaLink="true">particles.fitzlarolds.net/writer//the-witcher-3-titan-X</guid>
         
-        
-        <category>motivation</category>
-        
-        <category>storytime</category>
-        
-      </item>
-    
-      <item>
-        <title>Its Not Always That Simple</title>
-        <description>&lt;p&gt;If you always do what you’ve always done, you’ll always get what you’ve always had.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Want shows up in what you say, expectation shows up in behaviour&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in finibus diam, sit amet sollicitudin dui. Praesent erat dui, mattis sed elementum non, molestie et ipsum. Quisque fringilla vitae dolor a lacinia. Integer aliquam arcu non tortor egestas volutpat. Proin vitae pretium purus, a rhoncus sapien. Nam posuere rutrum lorem, eu sagittis ante scelerisque pretium. Morbi fermentum mauris a elit lacinia venenatis. Nunc ut iaculis nunc, sed faucibus nulla. Nunc at massa ut mi varius venenatis et id nibh. Sed molestie nibh sed risus mattis elementum. Ut iaculis, dolor sed consequat efficitur, nisi risus scelerisque dui, at bibendum velit nisi quis risus. Nunc gravida leo ut arcu tempus, et iaculis ex ullamcorper. Maecenas eget dolor diam. Suspendisse dapibus pulvinar tempus.&lt;/p&gt;
-
-&lt;p&gt;Vestibulum semper dui risus, ut vestibulum ex vestibulum in. Duis vel placerat augue. Morbi dapibus turpis nisi, eleifend hendrerit ligula congue non. Vestibulum felis velit, vulputate at metus ac, ullamcorper pharetra sapien. Praesent eget nibh scelerisque, scelerisque velit semper, ultrices velit. Nunc luctus quam ut condimentum sodales. Quisque eget eleifend nibh. Donec sit amet metus massa.&lt;/p&gt;
-
-&lt;p&gt;Quisque sagittis arcu quis mauris consectetur tempus. Etiam id erat pretium, rutrum quam ut, commodo lacus. Proin vitae condimentum odio. Morbi facilisis ligula vitae auctor pretium. Fusce lorem lectus, ultrices sit amet neque ut, condimentum bibendum libero. Mauris cursus neque eros, vel consectetur quam mollis nec. Mauris quis est nec elit euismod condimentum. Vestibulum imperdiet suscipit elit et scelerisque. Vivamus mollis sagittis ante.&lt;/p&gt;
-
-&lt;p&gt;Aenean commodo, massa quis mattis lacinia, mi ipsum vestibulum nisi, ut tincidunt massa erat quis neque. Aliquam volutpat eu ligula a tincidunt. Suspendisse imperdiet, lacus vitae pretium imperdiet, nisi elit efficitur felis, id ullamcorper nulla dolor ac massa. In rutrum eget nisi et maximus. Nam consequat libero et feugiat lobortis. Donec sit amet felis faucibus, egestas enim id, condimentum justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed aliquam, nisl vel volutpat semper, mi lacus tempus ante, hendrerit consequat massa lorem at lacus. Phasellus vel felis scelerisque, consectetur arcu ac, euismod massa.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
-        <link>/writer//its-not-always-that-simple</link>
-        <guid isPermaLink="true">/writer//its-not-always-that-simple</guid>
-        
-        
-        <category>motivation</category>
-        
-      </item>
-    
-      <item>
-        <title>Fake It Until You Make It</title>
-        <description>&lt;p&gt;Don’t listen to your critics, most people spend all day talking about what others are doing and no time doing anything themselves.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil eum cum quas! Consectetur aliquam molestias quos voluptatum recusandae accusantium eaque sed architecto esse. Ut obcaecati, porro numquam sed. Odio.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam provident accusamus vero autem culpa illum quo enim maiores eius error, sapiente inventore cum hic earum. Libero porro quisquam harum.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in finibus diam, sit amet sollicitudin dui. Praesent erat dui, mattis sed elementum non, molestie et ipsum. Quisque fringilla vitae dolor a lacinia. Integer aliquam arcu non tortor egestas volutpat. Proin vitae pretium purus, a rhoncus sapien. Nam posuere rutrum lorem, eu sagittis ante scelerisque pretium. Morbi fermentum mauris a elit lacinia venenatis. Nunc ut iaculis nunc, sed faucibus nulla. Nunc at massa ut mi varius venenatis et id nibh. Sed molestie nibh sed risus mattis elementum. Ut iaculis, dolor sed consequat efficitur, nisi risus scelerisque dui, at bibendum velit nisi quis risus. Nunc gravida leo ut arcu tempus, et iaculis ex ullamcorper. Maecenas eget dolor diam. Suspendisse dapibus pulvinar tempus.&lt;/p&gt;
-
-&lt;p&gt;Vestibulum semper dui risus, ut vestibulum ex vestibulum in. Duis vel placerat augue. Morbi dapibus turpis nisi, eleifend hendrerit ligula congue non. Vestibulum felis velit, vulputate at metus ac, ullamcorper pharetra sapien. Praesent eget nibh scelerisque, scelerisque velit semper, ultrices velit. Nunc luctus quam ut condimentum sodales. Quisque eget eleifend nibh. Donec sit amet metus massa.&lt;/p&gt;
-
-&lt;p&gt;Quisque sagittis arcu quis mauris consectetur tempus. Etiam id erat pretium, rutrum quam ut, commodo lacus. Proin vitae condimentum odio. Morbi facilisis ligula vitae auctor pretium. Fusce lorem lectus, ultrices sit amet neque ut, condimentum bibendum libero. Mauris cursus neque eros, vel consectetur quam mollis nec. Mauris quis est nec elit euismod condimentum. Vestibulum imperdiet suscipit elit et scelerisque. Vivamus mollis sagittis ante.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
-        <link>/writer//fake-it-until-you-make-it</link>
-        <guid isPermaLink="true">/writer//fake-it-until-you-make-it</guid>
-        
-        
-        <category>motivation</category>
-        
-      </item>
-    
-      <item>
-        <title>A Great Story Never Told</title>
-        <description>&lt;p&gt;I’ve never told this to anyone. Sit yourself down and strap yourself in, you will experience some turbulence before you reach a steady altitude.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil eum cum quas! Consectetur aliquam molestias quos voluptatum recusandae accusantium eaque sed architecto esse. Ut obcaecati, porro numquam sed. Odio.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam provident accusamus vero autem culpa illum quo enim maiores eius error, sapiente inventore cum hic earum. Libero porro quisquam harum.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;//writer/img/post-assets/iceland.jpg&quot; alt=&quot;iceland&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil eum cum quas! Consectetur aliquam molestias quos voluptatum recusandae accusantium eaque sed architecto esse. Ut obcaecati, porro numquam sed. Odio.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam provident accusamus vero autem culpa illum quo enim maiores eius error, sapiente inventore cum hic earum. Libero porro quisquam harum.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
-        <link>/writer//a-great-story-never-told</link>
-        <guid isPermaLink="true">/writer//a-great-story-never-told</guid>
-        
-        
-        <category>storytime</category>
-        
-        <category>life</category>
-        
-        <category>journey</category>
         
       </item>
     
