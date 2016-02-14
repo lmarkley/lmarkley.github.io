@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">Site Title</title>
+<title type="text">Fitzlarold's, a blog</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-02-14T16:23:49-05:00</updated>
+<updated>2016-02-14T16:45:26-05:00</updated>
 <id>/</id>
 <author>
-  <name>Your Name</name>
+  <name>Larry C Markley</name>
   <uri>/</uri>
   
 </author>
@@ -20,7 +20,7 @@
   <published>2015-12-02T19:55:00-05:00</published>
   <updated>2015-12-02T19:55:00-05:00</updated>
   <author>
-    <name>Your Name</name>
+    <name>Larry C Markley</name>
     <uri></uri>
     
   </author>
@@ -98,7 +98,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/filtering-the-static/&quot;&gt;Filtering the Static&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on December 02, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/filtering-the-static/&quot;&gt;Filtering the Static&lt;/a&gt; was originally published by Larry C Markley at &lt;a href=&quot;&quot;&gt;Fitzlarold's, a blog&lt;/a&gt; on December 02, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -110,7 +110,7 @@
   <published>2015-08-12T12:00:00-04:00</published>
   <updated>2015-08-12T12:00:00-04:00</updated>
   <author>
-    <name>Your Name</name>
+    <name>Larry C Markley</name>
     <uri></uri>
     
   </author>
@@ -222,7 +222,7 @@
 
 &lt;p&gt;If you’re in the market for a great (premium) programming text editor that is as powerful as it is fun to tweak, Sublime Text is for you. I think it would be safe to say that I haven’t gone a solid day without using it in the last two years (which I’m just now realizing might be a little sad).&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/ST3/&quot;&gt;Sublime Text: (Insert superlative here)&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on August 12, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/ST3/&quot;&gt;Sublime Text: (Insert superlative here)&lt;/a&gt; was originally published by Larry C Markley at &lt;a href=&quot;&quot;&gt;Fitzlarold's, a blog&lt;/a&gt; on August 12, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -234,7 +234,7 @@
   <published>2015-07-31T18:15:00-04:00</published>
   <updated>2015-07-31T18:15:00-04:00</updated>
   <author>
-    <name>Your Name</name>
+    <name>Larry C Markley</name>
     <uri></uri>
     
   </author>
@@ -379,7 +379,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/favorite-apps/&quot;&gt;My favorite iOS applications&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on July 31, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/favorite-apps/&quot;&gt;My favorite iOS applications&lt;/a&gt; was originally published by Larry C Markley at &lt;a href=&quot;&quot;&gt;Fitzlarold's, a blog&lt;/a&gt; on July 31, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -391,7 +391,7 @@
   <published>2015-07-29T13:30:00-04:00</published>
   <updated>2015-07-29T13:30:00-04:00</updated>
   <author>
-    <name>Your Name</name>
+    <name>Larry C Markley</name>
     <uri></uri>
     
   </author>
@@ -428,7 +428,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/gaming-keyboards/&quot;&gt;Gaming keyboards and productivity&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on July 29, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/gaming-keyboards/&quot;&gt;Gaming keyboards and productivity&lt;/a&gt; was originally published by Larry C Markley at &lt;a href=&quot;&quot;&gt;Fitzlarold's, a blog&lt;/a&gt; on July 29, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -440,7 +440,7 @@
   <published>2015-07-11T17:14:00-04:00</published>
   <updated>2015-07-11T17:14:00-04:00</updated>
   <author>
-    <name>Your Name</name>
+    <name>Larry C Markley</name>
     <uri></uri>
     
   </author>
@@ -569,7 +569,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/Nmap-and-other-things/&quot;&gt;A &#39;Bourne again&#39; shell scripter&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on July 11, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/Nmap-and-other-things/&quot;&gt;A &#39;Bourne again&#39; shell scripter&lt;/a&gt; was originally published by Larry C Markley at &lt;a href=&quot;&quot;&gt;Fitzlarold's, a blog&lt;/a&gt; on July 11, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -581,7 +581,7 @@
   <published>2015-06-06T12:30:00-04:00</published>
   <updated>2015-06-06T12:30:00-04:00</updated>
   <author>
-    <name>Your Name</name>
+    <name>Larry C Markley</name>
     <uri></uri>
     
   </author>
@@ -624,7 +624,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/ARK/&quot;&gt;&#39;ARK: Survival Evolved&#39; initial impressions&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on June 06, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/ARK/&quot;&gt;&#39;ARK: Survival Evolved&#39; initial impressions&lt;/a&gt; was originally published by Larry C Markley at &lt;a href=&quot;&quot;&gt;Fitzlarold's, a blog&lt;/a&gt; on June 06, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -636,7 +636,7 @@
   <published>2015-05-29T07:37:51-04:00</published>
   <updated>2015-05-29T07:37:51-04:00</updated>
   <author>
-    <name>Your Name</name>
+    <name>Larry C Markley</name>
     <uri></uri>
     
   </author>
@@ -700,7 +700,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/the-witcher-3-titan-X/&quot;&gt;The Witcher 3: Wild Hunt and the GeForce GTX Titan X: A brief overview&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on May 29, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/the-witcher-3-titan-X/&quot;&gt;The Witcher 3: Wild Hunt and the GeForce GTX Titan X: A brief overview&lt;/a&gt; was originally published by Larry C Markley at &lt;a href=&quot;&quot;&gt;Fitzlarold's, a blog&lt;/a&gt; on May 29, 2015.&lt;/p&gt;
   </content>
 </entry>
 
