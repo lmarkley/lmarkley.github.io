@@ -1,17 +1,121 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>On Particles and Processors</title>
-    <description></description>
-    <link>http://lmarkley.github.io/</link>
-    <atom:link href="http://lmarkley.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Dec 2015 19:35:19 -0500</pubDate>
-    <lastBuildDate>Wed, 02 Dec 2015 19:35:19 -0500</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Site Title</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2016-02-14T16:23:49-05:00</updated>
+<id>/</id>
+<author>
+  <name>Your Name</name>
+  <uri>/</uri>
+  
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[Filtering the Static]]></title>
+  <link rel="alternate" type="text/html" href="/filtering-the-static/" />
+  <id>/filtering-the-static</id>
+  <published>2015-12-02T19:55:00-05:00</published>
+  <updated>2015-12-02T19:55:00-05:00</updated>
+  <author>
+    <name>Your Name</name>
+    <uri></uri>
     
-      <item>
-        <title>Sublime Text: (Insert superlative here)</title>
-        <description>&lt;p&gt;There are purists that would have you believe that programming is something best done with a plain text editor, Vim, and/or the command line, and they are (for the most part) absolutely correct. However, for those that are &lt;em&gt;not&lt;/em&gt; purists, (insofar as not respecting that particular aesthetic) there are very powerful and flexible tools available. One such tool is Sublime Text. To be clear, I think that programmers &lt;em&gt;should&lt;/em&gt; be able to get by with nothing but a plain text editor and the command line. When not “in the field,” on my own computer, I like to have a bit more of a personalized experience.&lt;/p&gt;
+  </author>
+  <content type="html">
+    &lt;h2 id=&quot;a-brief-history-of-signals&quot;&gt;A brief history of signals&lt;/h2&gt;
+
+&lt;p&gt;Humans communicate in so many ways: a wry smile, a business email, a loud conversation at a bar, a light brush of the shoulder, the list goes on indefinitely. There are nearly infinite combinations and permutations of ways through which we convey our thoughts and ideas. In the past, we were limited to shouting distance; then through advances land, sea, and air transportation, we extended and expedited our means of communication. Until the 20th century, we were limited to &lt;em&gt;physically&lt;/em&gt; transferring our information from point A to point B through a series of intermediaries.&lt;/p&gt;
+
+&lt;p&gt;Then, in a scientific and technological revolution of unequaled scope, humanity extended its reach effectively to infinity: we learned to use electromagnetic radiation to send our messages. We could transmit and receive messages anywhere almost instantaneously. And we did. A lot. However, in the hubris of our innovation, we neglected to think ahead to an age where the air was so permeated with information, that an individual or group could just reach out and grab that information at will.&lt;/p&gt;
+
+&lt;p&gt;Only recently has the idea of protecting this flood of information about ourselves become mainstream. Every day we are inundated with words like ‘encryption’, ‘metadata’, ‘hacking’, and ‘mass surveillance’, yet most of us have no idea what some or any of them mean.&lt;/p&gt;
+
+&lt;p&gt;I am not going to delve into the deep end of the pool and try to discuss all of these topics in depth—or even topically—because it would take too long and there are better people to do so than me. Yet I still want to say &lt;em&gt;something&lt;/em&gt; about all of this noise, to do my part to help reveal the signal buried within.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;boxes-and-keys&quot;&gt;Boxes and keys?&lt;/h2&gt;
+
+&lt;p&gt;The goal of encryption is-in a grossly oversimplified way-to allow for communication between two parties without worrying about a third (often nefarious) party being able to know what the two parties are saying to one another. There are two big flavors of encryption: &lt;em&gt;symmetric&lt;/em&gt; and &lt;em&gt;asymmetric&lt;/em&gt;. The best way of describing them that I have ever encountered comes (perhaps ironically) from a conversation between Neil deGrasse Tyson and Edward Snowden on the podcast&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;,&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;em&gt;Star Talk Radio&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Symmetric encryption&lt;/strong&gt; is when I have a box, I lock it with key A and send it to you, who then unlocks it with that same key A. Simply, the same key can lock and unlock the box.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Asymmetric encryption&lt;/strong&gt; is when there are two keys, A and B, to the box. A can only lock the box, while B can only unlock it. A useful feature of this is that if you have key B, you can’t lock the box and give it to someone else while pretending that I put everything in it.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To paraphrase Tyson and Snowden again: Ideally, a third party won’t even know they are looking at a communication because it’s so well encrypted, it looks like noise.&lt;/p&gt;
+
+&lt;p&gt;If you’ve ever sent an encrypted email, or at least heard of folks doing so, they’re &lt;em&gt;probably&lt;/em&gt; utilizing asymmetric encryption.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;because-why-not-get-political&quot;&gt;Because why not get political?&lt;/h2&gt;
+
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OMOGaugKpzs&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The reason I mention this (other than to educate) is to say that some folks (mostly governments and hackers, you decide which is more scary) want a master key that unlocks and locks all of the boxes. Governments want cryptographic protocols to implement a “back door” that only they can access, “hackers” just want there to be a mistake or bug to exploit (again, you decide which is scarier) in order to forge a key. Governments wanting a “back door” into encrypted messages may seem fine at first glance. One might think, “Well of course, can’t have the baddies talking all sneaky to each other!” Or “Well of course the government needs this for national security!” Or (my personal favorite), “Well &lt;em&gt;I&lt;/em&gt; have nothing to hide, so what if they know everything about me?”&lt;/p&gt;
+
+&lt;p&gt;While with the first two I could &lt;em&gt;almost&lt;/em&gt; see your point, that last one is addressed by none other than the aforementioned whistleblower/traitor/patriot/criminal in the aforementioned conversation in the following way (excuse my paraphrasing): Saying that mass surveillance should be allowed because you have nothing to hide, is like saying the First Amendment is unnecessary because you have nothing to say. That may be a misappropriation of Snowden’s comment in the interview, but I did my best to get the point.&lt;/p&gt;
+
+&lt;p&gt;And in case you thought you were going to get away with thinking one or both of the first two, I have one phrase for you: “Who will guard the guards?”&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; You’re putting an awful lot of trust in a government that is supposed to &lt;em&gt;serve&lt;/em&gt; the people, not spy on them with impunity &lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;,&lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;,&lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;. This is a country where free and open discourse is not only encouraged, but protected by the highest law. Then again, this is also the same country that has Donald Trump as a front-runner for President and where doctors won’t stand up to a bully that cites anecdotal evidence and discredited research to claim that vaccines cause autism &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;, so maybe I’m barking up the wrong tree.&lt;/p&gt;
+
+&lt;p&gt;What started out as a short PSA on encryption has (surprisingly enough to me) ended up as a treatise advocating privacy. For that, dear reader, I apologize.&lt;/p&gt;
+
+&lt;p&gt;Then again, as us youngsters say these days, “Sorry I’m not sorry.”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/h52b5GULWNVRe/giphy.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.startalkradio.net/show/a-conversation-with-edward-snowden-part-1/&quot;&gt;Star Talk Radio: A Conversation with Edward Snowden, Part 1&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.startalkradio.net/show/a-conversation-with-edward-snowden-part-2/&quot;&gt;Star Talk Radio: A Conversation with Edward Snowden, Part 2&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;&lt;em&gt;“Quis custodiet ipsos custodes?”&lt;/em&gt; &lt;a href=&quot;https://en.m.wikipedia.org/wiki/Quis_custodiet_ipsos_custodes%3F&quot;&gt;Wikipedia&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.theverge.com/2015/11/16/9745932/paris-attack-terrorism-surveillance-cia-brennan&quot;&gt;The Verge: The US government is already lying like crazy about surveillance after the Paris attacks&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://arstechnica.com/tech-policy/2015/11/nsa-replaced-secret-e-mail-metadata-program-with-more-expansive-tools/&quot;&gt;Ars Technica: It’s official—NSA did keep its e-mail metadata program after it “ended” in 2011&lt;/a&gt; &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:7&quot;&gt;
+      &lt;p&gt;I would be remiss for not mentioning that there are &lt;em&gt;hundreds&lt;/em&gt; (if not thousands) of articles describing ways in which many governments engage in rampant mass surveillance on their citizens. &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;I am referring to presidential hopeful Ben Carson (a surgeon) all but &lt;em&gt;agreeing&lt;/em&gt; with Trump after the latter defecated loudly all over one of the pinnacles of modern medicine. Sorry, I’ve no tolerance for pseudo-scientific smoke-blowing. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/filtering-the-static/&quot;&gt;Filtering the Static&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on December 02, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Sublime Text: (Insert superlative here)]]></title>
+  <link rel="alternate" type="text/html" href="/ST3/" />
+  <id>/ST3</id>
+  <published>2015-08-12T12:00:00-04:00</published>
+  <updated>2015-08-12T12:00:00-04:00</updated>
+  <author>
+    <name>Your Name</name>
+    <uri></uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;There are purists that would have you believe that programming is something best done with a plain text editor, Vim, and/or the command line, and they are (for the most part) absolutely correct. However, for those that are &lt;em&gt;not&lt;/em&gt; purists, (insofar as not respecting that particular aesthetic) there are very powerful and flexible tools available. One such tool is Sublime Text. To be clear, I think that programmers &lt;em&gt;should&lt;/em&gt; be able to get by with nothing but a plain text editor and the command line. When not “in the field,” on my own computer, I like to have a bit more of a personalized experience.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -117,17 +221,25 @@
 &lt;h4 id=&quot;closing-remarks&quot;&gt;Closing remarks&lt;/h4&gt;
 
 &lt;p&gt;If you’re in the market for a great (premium) programming text editor that is as powerful as it is fun to tweak, Sublime Text is for you. I think it would be safe to say that I haven’t gone a solid day without using it in the last two years (which I’m just now realizing might be a little sad).&lt;/p&gt;
-</description>
-        <pubDate>Wed, 12 Aug 2015 12:00:00 -0400</pubDate>
-        <link>http://lmarkley.github.io/ST3</link>
-        <guid isPermaLink="true">http://lmarkley.github.io/ST3</guid>
-        
-        
-      </item>
+
+    &lt;p&gt;&lt;a href=&quot;/ST3/&quot;&gt;Sublime Text: (Insert superlative here)&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on August 12, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[My favorite iOS applications]]></title>
+  <link rel="alternate" type="text/html" href="/favorite-apps/" />
+  <id>/favorite-apps</id>
+  <published>2015-07-31T18:15:00-04:00</published>
+  <updated>2015-07-31T18:15:00-04:00</updated>
+  <author>
+    <name>Your Name</name>
+    <uri></uri>
     
-      <item>
-        <title>My favorite iOS applications</title>
-        <description>&lt;p&gt;Below I have collected my favorite iOS applications. I have spent a long time vetting the applications in this post, and I plan to add and subtract from it as necessary.&lt;/p&gt;
+  </author>
+  <content type="html">
+    &lt;p&gt;Below I have collected my favorite iOS applications. I have spent a long time vetting the applications in this post, and I plan to add and subtract from it as necessary.&lt;/p&gt;
 
 &lt;h3 id=&quot;email-client-dispatch&quot;&gt;Email client: Dispatch&lt;/h3&gt;
 
@@ -266,17 +378,25 @@
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-        <pubDate>Fri, 31 Jul 2015 18:15:00 -0400</pubDate>
-        <link>http://lmarkley.github.io/favorite-apps</link>
-        <guid isPermaLink="true">http://lmarkley.github.io/favorite-apps</guid>
-        
-        
-      </item>
+
+    &lt;p&gt;&lt;a href=&quot;/favorite-apps/&quot;&gt;My favorite iOS applications&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on July 31, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Gaming keyboards and productivity]]></title>
+  <link rel="alternate" type="text/html" href="/gaming-keyboards/" />
+  <id>/gaming-keyboards</id>
+  <published>2015-07-29T13:30:00-04:00</published>
+  <updated>2015-07-29T13:30:00-04:00</updated>
+  <author>
+    <name>Your Name</name>
+    <uri></uri>
     
-      <item>
-        <title>Gaming keyboards and productivity</title>
-        <description>&lt;p&gt;It turns out that computers that are good for doing complex mathematics, large calculation, and parallel processing, are also good for gaming. Interestingly enough, gaming keyboards are also good for things other than gaming. They happen to be, for the most part, well-crafted, mechanical, and possess macro keys that can be used in many ways. In this post, I would like to give an anecdotal look at how a gaming keyboard can be repurposed for productivity, particularly with regard to programming.&lt;/p&gt;
+  </author>
+  <content type="html">
+    &lt;p&gt;It turns out that computers that are good for doing complex mathematics, large calculation, and parallel processing, are also good for gaming. Interestingly enough, gaming keyboards are also good for things other than gaming. They happen to be, for the most part, well-crafted, mechanical, and possess macro keys that can be used in many ways. In this post, I would like to give an anecdotal look at how a gaming keyboard can be repurposed for productivity, particularly with regard to programming.&lt;/p&gt;
 
 &lt;h2 id=&quot;macro-keys-shortcuts-galore&quot;&gt;Macro keys: shortcuts galore&lt;/h2&gt;
 
@@ -307,17 +427,25 @@
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-        <pubDate>Wed, 29 Jul 2015 13:30:00 -0400</pubDate>
-        <link>http://lmarkley.github.io/gaming-keyboards</link>
-        <guid isPermaLink="true">http://lmarkley.github.io/gaming-keyboards</guid>
-        
-        
-      </item>
+
+    &lt;p&gt;&lt;a href=&quot;/gaming-keyboards/&quot;&gt;Gaming keyboards and productivity&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on July 29, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[A 'Bourne again' shell scripter]]></title>
+  <link rel="alternate" type="text/html" href="/Nmap-and-other-things/" />
+  <id>/Nmap-and-other-things</id>
+  <published>2015-07-11T17:14:00-04:00</published>
+  <updated>2015-07-11T17:14:00-04:00</updated>
+  <author>
+    <name>Your Name</name>
+    <uri></uri>
     
-      <item>
-        <title>A &#39;Bourne again&#39; shell scripter</title>
-        <description>&lt;p&gt;I’ve been playing around with bash (the Bourne Again SHell) scripts for about two years now. At first, it was a passing necessity to automate programs for the research I was working on. Then I realized the tremendous power that lie within scripting in bash. I think about it like this: You are essentially giving directions &lt;em&gt;directly&lt;/em&gt; to the “brain” of your computer. All that raw power at your fingertips without having to go through someone else’s “black box” of a user interface, that does god-knows-what behind the scenes; it is exhilarating (to a nerd like me).&lt;/p&gt;
+  </author>
+  <content type="html">
+    &lt;p&gt;I’ve been playing around with bash (the Bourne Again SHell) scripts for about two years now. At first, it was a passing necessity to automate programs for the research I was working on. Then I realized the tremendous power that lie within scripting in bash. I think about it like this: You are essentially giving directions &lt;em&gt;directly&lt;/em&gt; to the “brain” of your computer. All that raw power at your fingertips without having to go through someone else’s “black box” of a user interface, that does god-knows-what behind the scenes; it is exhilarating (to a nerd like me).&lt;/p&gt;
 
 &lt;p&gt;That is not to say that you can’t &lt;strong&gt;severely&lt;/strong&gt; screw up everything on your computer with this stuff (I have on many occasions done just that), but if you do your homework and experiment a little you’re usually safe.&lt;/p&gt;
 
@@ -440,17 +568,25 @@
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-        <pubDate>Sat, 11 Jul 2015 17:14:00 -0400</pubDate>
-        <link>http://lmarkley.github.io/Nmap-and-other-things</link>
-        <guid isPermaLink="true">http://lmarkley.github.io/Nmap-and-other-things</guid>
-        
-        
-      </item>
+
+    &lt;p&gt;&lt;a href=&quot;/Nmap-and-other-things/&quot;&gt;A &#39;Bourne again&#39; shell scripter&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on July 11, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA['ARK: Survival Evolved' initial impressions]]></title>
+  <link rel="alternate" type="text/html" href="/ARK/" />
+  <id>/ARK</id>
+  <published>2015-06-06T12:30:00-04:00</published>
+  <updated>2015-06-06T12:30:00-04:00</updated>
+  <author>
+    <name>Your Name</name>
+    <uri></uri>
     
-      <item>
-        <title>&#39;ARK: Survival Evolved&#39; initial impressions</title>
-        <description>&lt;p&gt;I was perusing the selection on Steam a couple of days ago and ran across something that intrigued me: a game survival game with dinosaurs. I should preface the following with the fact that I &lt;em&gt;do not&lt;/em&gt; generally like survival games, &lt;em&gt;do not&lt;/em&gt; generally like games where humans and dinosaurs coexist (anything in which they coexist, actually), and am a bit wary of “Early Access” titles (I have been disappointed in the past). However, after watching the (rather intense) trailer &lt;sup id=&quot;fnref:trailer&quot;&gt;&lt;a href=&quot;#fn:trailer&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; for &lt;em&gt;ARK: Survival Evolved&lt;/em&gt;, I took a chance; there was bait dangled in front of me and I bit.&lt;/p&gt;
+  </author>
+  <content type="html">
+    &lt;p&gt;I was perusing the selection on Steam a couple of days ago and ran across something that intrigued me: a game survival game with dinosaurs. I should preface the following with the fact that I &lt;em&gt;do not&lt;/em&gt; generally like survival games, &lt;em&gt;do not&lt;/em&gt; generally like games where humans and dinosaurs coexist (anything in which they coexist, actually), and am a bit wary of “Early Access” titles (I have been disappointed in the past). However, after watching the (rather intense) trailer &lt;sup id=&quot;fnref:trailer&quot;&gt;&lt;a href=&quot;#fn:trailer&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; for &lt;em&gt;ARK: Survival Evolved&lt;/em&gt;, I took a chance; there was bait dangled in front of me and I bit.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-premise-and-basis-of-gameplay&quot;&gt;The premise and basis of gameplay&lt;/h3&gt;
 
@@ -487,17 +623,25 @@
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-        <pubDate>Sat, 06 Jun 2015 12:30:00 -0400</pubDate>
-        <link>http://lmarkley.github.io/ARK</link>
-        <guid isPermaLink="true">http://lmarkley.github.io/ARK</guid>
-        
-        
-      </item>
+
+    &lt;p&gt;&lt;a href=&quot;/ARK/&quot;&gt;&#39;ARK: Survival Evolved&#39; initial impressions&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on June 06, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[The Witcher 3: Wild Hunt and the GeForce GTX Titan X: A brief overview]]></title>
+  <link rel="alternate" type="text/html" href="/the-witcher-3-titan-X/" />
+  <id>/the-witcher-3-titan-X</id>
+  <published>2015-05-29T07:37:51-04:00</published>
+  <updated>2015-05-29T07:37:51-04:00</updated>
+  <author>
+    <name>Your Name</name>
+    <uri></uri>
     
-      <item>
-        <title>The Witcher 3: Wild Hunt and the GeForce GTX Titan X: A brief overview</title>
-        <description>&lt;p&gt;I recently had the chance to try out the GeForce GTX Titan X. The Titan X is NVIDIA’s new high-end consumer card; not “pro-sumer”, just consumer. The reason behind this is that the Titan X, unlike its nominal forebears, is optimized for 32-bit floating point arithmetic, not 64-bit and thus is amazing at graphics, but not ideal for scientific or professional computing &lt;em&gt;technically&lt;/em&gt;. Despite its 64-bit limitations, it has 8 billion transistors on its 28 nm lithography, with the second-generation Maxwell architecture &lt;sup id=&quot;fnref:transistors&quot;&gt;&lt;a href=&quot;#fn:transistors&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; The card comes with a wonderfully large amount of VRAM: 12 GB, to be exact. This makes it great for handling the large buffer sizes associated with 4K gaming.&lt;/p&gt;
+  </author>
+  <content type="html">
+    &lt;p&gt;I recently had the chance to try out the GeForce GTX Titan X. The Titan X is NVIDIA’s new high-end consumer card; not “pro-sumer”, just consumer. The reason behind this is that the Titan X, unlike its nominal forebears, is optimized for 32-bit floating point arithmetic, not 64-bit and thus is amazing at graphics, but not ideal for scientific or professional computing &lt;em&gt;technically&lt;/em&gt;. Despite its 64-bit limitations, it has 8 billion transistors on its 28 nm lithography, with the second-generation Maxwell architecture &lt;sup id=&quot;fnref:transistors&quot;&gt;&lt;a href=&quot;#fn:transistors&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; The card comes with a wonderfully large amount of VRAM: 12 GB, to be exact. This makes it great for handling the large buffer sizes associated with 4K gaming.&lt;/p&gt;
 
 &lt;p&gt;I don’t want to talk about the specifications of the card too much; there are plenty of articles on that, as well as NVIDIA’s own page for the card &lt;a href=&quot;http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-titan-x&quot;&gt;here&lt;/a&gt;. However, I will say (without suggesting that you do this and stating that you assume all risk associated with doing so should you choose to) that the Titan X overclocks very well &lt;sup id=&quot;fnref:oc&quot;&gt;&lt;a href=&quot;#fn:oc&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
@@ -555,13 +699,9 @@
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-        <pubDate>Fri, 29 May 2015 07:37:51 -0400</pubDate>
-        <link>http://lmarkley.github.io/the-witcher-3-titan-X</link>
-        <guid isPermaLink="true">http://lmarkley.github.io/the-witcher-3-titan-X</guid>
-        
-        
-      </item>
-    
-  </channel>
-</rss>
+
+    &lt;p&gt;&lt;a href=&quot;/the-witcher-3-titan-X/&quot;&gt;The Witcher 3: Wild Hunt and the GeForce GTX Titan X: A brief overview&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on May 29, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+</feed>
