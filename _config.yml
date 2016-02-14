@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Fitzlarold's, a blog
 locale:           en_US
 url:
 
@@ -41,9 +41,9 @@ titlecase: true
 
 # Site owner
 owner:
-  name: Your Name
+  name: Larry C Markley
   avatar: bio-photo.jpg
-  bio: "Describe your self."
+  bio: ""
   email:
   disqus-shortname:
   twitter: #username
