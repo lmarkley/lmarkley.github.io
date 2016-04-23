@@ -59,4 +59,4 @@ Then again, as us youngsters say these days, "Sorry I'm not sorry."
 
 [^7]: I would be remiss for not mentioning that there are *hundreds* (if not thousands) of articles describing ways in which many governments engage in rampant mass surveillance on their citizens.
 
-[^1]: I am referring to presidential hopeful Ben Carson (a surgeon) all but *agreeing* with Trump after the latter defecated loudly all over one of the pinnacles of modern medicine. Sorry, I've no tolerance for pseudo-scientific smoke-blowing.
+[^1]: I am referring to presidential hopeful Ben Carson (a surgeon) all but *agreeing* with Trump after the latter defecated loudly all over one of the pinnacles of modern medicine. Sorry, I've no tolerance for pseudo-scientific smoke-blowing. of course I can't recall in which debate this took place so ignore it if you wish.
